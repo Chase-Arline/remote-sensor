@@ -8796,7 +8796,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value=".33uf"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="VBAT-IN" library="EMF105B7104MVHF" deviceset="EMF105B7104MVHF" device="" value=".1uf"/>
+<part name="C8" library="EMF105B7104MVHF" deviceset="EMF105B7104MVHF" device="" value=".1uf"/>
 <part name="C9" library="UMK105CBJ105KV-F" deviceset="UMK105CBJ105KV-F" device="" value="1uf"/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -8869,7 +8869,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="SUPPLY3" gate="GND" x="63.246" y="68.58" smashed="yes" rot="R90">
 <attribute name="VALUE" x="65.659" y="70.485" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="VBAT-IN" gate="G$1" x="71.12" y="43.18" smashed="yes" rot="R270">
+<instance part="C8" gate="G$1" x="71.12" y="43.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="69.85" y="35.81493125" size="1.77843125" layer="95"/>
 <attribute name="VALUE" x="68.58848125" y="40.132" size="1.78096875" layer="96" rot="R90"/>
 </instance>
@@ -8969,7 +8969,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="78.486" y="72.898"/>
 </segment>
 <segment>
-<pinref part="VBAT-IN" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="45.72" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
@@ -9010,7 +9010,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="SUPPLY8" gate="GND" pin="GND"/>
 </segment>
 </net>
-<net name="VIN-5V" class="0">
+<net name="VIN-PIC" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="VDD@1"/>
 <pinref part="U$2" gate="G$1" pin="VDD@2"/>
@@ -9064,7 +9064,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="U$4" gate="G$1" pin="VIN"/>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="38.1" x2="71.12" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="VBAT-IN" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 <junction x="71.12" y="38.1"/>
 <junction x="71.12" y="38.1"/>
 <junction x="71.12" y="38.1"/>
