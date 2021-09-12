@@ -1,0 +1,464 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1615 ]
+[d frameptr 6 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"53 C:\Users\User\MPLABXProjects\SolarRadio.X\receiver.c
+[v _resetRadio resetRadio `(v  1 e 1 0 ]
+"60
+[v _init init `(i  1 e 2 0 ]
+"66
+[v _rfmSetup rfmSetup `(v  1 e 1 0 ]
+"82
+[v _main main `(i  1 e 2 0 ]
+"107
+[v _spi_init_master spi_init_master `(v  1 e 1 0 ]
+"7 C:\Users\User\MPLABXProjects\SolarRadio.X\RFM69HCW.c
+[v _sendPairs sendPairs `(v  1 e 1 0 ]
+"15
+[v _sendBulk sendBulk `(v  1 e 1 0 ]
+"24
+[v _send send `(uc  1 e 1 0 ]
+"40
+[v _setPinWithMask setPinWithMask `(v  1 e 1 0 ]
+"48
+[v _setSyncWords setSyncWords `(v  1 e 1 0 ]
+"57
+[v _setPacketLength setPacketLength `(v  1 e 1 0 ]
+"62
+[v _setNodeAddress setNodeAddress `(v  1 e 1 0 ]
+"67
+[v _setRSSIThreshold setRSSIThreshold `(v  1 e 1 0 ]
+"72
+[v _setPacketFormat setPacketFormat `(v  1 e 1 0 ]
+"77
+[v _setOperatingMode setOperatingMode `(v  1 e 1 0 ]
+"82
+[v _setRecommendedParams setRecommendedParams `(v  1 e 1 0 ]
+"86
+[v _setModulationThreshold setModulationThreshold `(v  1 e 1 0 ]
+"97
+[v _receivePayload receivePayload `(v  1 e 1 0 ]
+"106
+[v _setPreambleLength setPreambleLength `(v  1 e 1 0 ]
+"111
+[v _initRadio initRadio `(v  1 e 1 0 ]
+"122
+[v _setPowerOutput setPowerOutput `(v  1 e 1 0 ]
+"136
+[v _getRSSI getRSSI `(uc  1 e 1 0 ]
+"142
+[v _getFifoFlags getFifoFlags `(uc  1 e 1 0 ]
+"154
+[v _getOperatingMode getOperatingMode `(uc  1 e 1 0 ]
+"160
+[v _setDiodeMapping setDiodeMapping `(v  1 e 1 0 ]
+"166
+[v _getModeFlags getModeFlags `(uc  1 e 1 0 ]
+"196
+[v _setAutoMode setAutoMode `(v  1 e 1 0 ]
+"429 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f1615.h
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+[s S22 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+]
+"494
+[u S29 . 1 `S22 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES29  1 e 1 @14 ]
+[s S122 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+]
+"1578
+[u S129 . 1 `S122 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES129  1 e 1 @140 ]
+[s S49 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+]
+"1628
+[u S56 . 1 `S49 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES56  1 e 1 @142 ]
+[s S88 . 1 `uc 1 SCS 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 IRCF 1 0 :4:3 
+`uc 1 SPLLEN 1 0 :1:7 
+]
+"2176
+[s S93 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 IRCF0 1 0 :1:3 
+`uc 1 IRCF1 1 0 :1:4 
+`uc 1 IRCF2 1 0 :1:5 
+`uc 1 IRCF3 1 0 :1:6 
+]
+[u S101 . 1 `S88 1 . 1 0 `S93 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES101  1 e 1 @153 ]
+"3172
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3219
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"4430
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @529 ]
+[s S67 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+"5214
+[u S76 . 1 `S67 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES76  1 e 1 @532 ]
+[s S207 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"5347
+[s S213 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S218 . 1 `S207 1 . 1 0 `S213 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES218  1 e 1 @533 ]
+"5534
+[v _SSP1CONbits SSP1CONbits `VES218  1 e 1 @533 ]
+"21495
+[v _SSPDATPPS SSPDATPPS `VEuc  1 e 1 @3617 ]
+"22331
+[v _RC0PPS RC0PPS `VEuc  1 e 1 @3744 ]
+"22463
+[v _RC3PPS RC3PPS `VEuc  1 e 1 @3747 ]
+"47 C:\Users\User\MPLABXProjects\SolarRadio.X\receiver.c
+[v _operatingMode operatingMode `uc  1 e 1 0 ]
+"48
+[v _RSSI RSSI `uc  1 e 1 0 ]
+"49
+[v _fifoFlags fifoFlags `uc  1 e 1 0 ]
+"50
+[v _modeFlags modeFlags `uc  1 e 1 0 ]
+"3 C:\Users\User\MPLABXProjects\SolarRadio.X\RFM69HCW.c
+[v _recommended_params recommended_params `[10]uc  1 e 10 0 ]
+"82 C:\Users\User\MPLABXProjects\SolarRadio.X\receiver.c
+[v _main main `(i  1 e 2 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+"86
+[v main@radio radio `S139  1 a 75 0 ]
+"85
+[v main@F9389 F9389 `S139  1 s 75 F9389 ]
+"105
+} 0
+"122 C:\Users\User\MPLABXProjects\SolarRadio.X\RFM69HCW.c
+[v _setPowerOutput setPowerOutput `(v  1 e 1 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+[v setPowerOutput@radio radio `*.4S139  1 a 1 wreg ]
+"123
+[v setPowerOutput@msg msg `[2]uc  1 a 2 6 ]
+"122
+[v setPowerOutput@radio radio `*.4S139  1 a 1 wreg ]
+[v setPowerOutput@powerSettings powerSettings `uc  1 p 1 12 ]
+[v setPowerOutput@radio radio `*.4S139  1 a 1 5 ]
+"125
+} 0
+"77
+[v _setOperatingMode setOperatingMode `(v  1 e 1 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+[v setOperatingMode@radio radio `*.4S139  1 a 1 wreg ]
+"78
+[v setOperatingMode@msg msg `[2]uc  1 a 2 6 ]
+"77
+[v setOperatingMode@radio radio `*.4S139  1 a 1 wreg ]
+[v setOperatingMode@operatingMode operatingMode `uc  1 p 1 12 ]
+[v setOperatingMode@radio radio `*.4S139  1 a 1 5 ]
+"80
+} 0
+"160
+[v _setDiodeMapping setDiodeMapping `(v  1 e 1 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+[v setDiodeMapping@radio radio `*.4S139  1 a 1 wreg ]
+"161
+[v setDiodeMapping@msg msg `[2]uc  1 a 2 6 ]
+"160
+[v setDiodeMapping@radio radio `*.4S139  1 a 1 wreg ]
+[v setDiodeMapping@mapping mapping `uc  1 p 1 12 ]
+[v setDiodeMapping@radio radio `*.4S139  1 a 1 5 ]
+"164
+} 0
+"196
+[v _setAutoMode setAutoMode `(v  1 e 1 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+[v setAutoMode@radio radio `*.4S139  1 a 1 wreg ]
+"197
+[v setAutoMode@msg msg `[2]uc  1 a 2 6 ]
+"196
+[v setAutoMode@radio radio `*.4S139  1 a 1 wreg ]
+[v setAutoMode@autoModes autoModes `uc  1 p 1 12 ]
+[v setAutoMode@radio radio `*.4S139  1 a 1 5 ]
+"200
+} 0
+"97
+[v _receivePayload receivePayload `(v  1 e 1 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+[v receivePayload@radio radio `*.4S139  1 a 1 wreg ]
+"100
+[v receivePayload@i i `i  1 a 2 8 ]
+"97
+[v receivePayload@radio radio `*.4S139  1 a 1 wreg ]
+[v receivePayload@radio radio `*.4S139  1 a 1 10 ]
+"104
+} 0
+"111
+[v _initRadio initRadio `(v  1 e 1 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+[v initRadio@radio radio `*.4S139  1 a 1 wreg ]
+[v initRadio@radio radio `*.4S139  1 a 1 wreg ]
+[v initRadio@radio radio `*.4S139  1 a 1 16 ]
+"120
+} 0
+"48
+[v _setSyncWords setSyncWords `(v  1 e 1 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+[v setSyncWords@radio radio `*.4S139  1 a 1 wreg ]
+"51
+[v setSyncWords@i i `i  1 a 2 14 ]
+"49
+[v setSyncWords@msg msg `[10]uc  1 a 10 3 ]
+"48
+[v setSyncWords@radio radio `*.4S139  1 a 1 wreg ]
+"50
+"48
+[v setSyncWords@radio radio `*.4S139  1 a 1 13 ]
+"55
+} 0
+"82
+[v _setRecommendedParams setRecommendedParams `(v  1 e 1 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+[v setRecommendedParams@radio radio `*.4S139  1 a 1 wreg ]
+[v setRecommendedParams@radio radio `*.4S139  1 a 1 wreg ]
+[v setRecommendedParams@radio radio `*.4S139  1 a 1 12 ]
+"84
+} 0
+"7
+[v _sendPairs sendPairs `(v  1 e 1 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+[v sendPairs@radio radio `*.4S139  1 a 1 wreg ]
+"9
+[v sendPairs@i i `i  1 a 2 9 ]
+"8
+[v sendPairs@msg msg `[2]uc  1 a 2 7 ]
+"7
+[v sendPairs@radio radio `*.4S139  1 a 1 wreg ]
+[v sendPairs@msgs msgs `*.4uc  1 p 1 3 ]
+[v sendPairs@len len `DCi  1 p 2 4 ]
+[v sendPairs@radio radio `*.4S139  1 a 1 6 ]
+"13
+} 0
+"67
+[v _setRSSIThreshold setRSSIThreshold `(v  1 e 1 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+[v setRSSIThreshold@radio radio `*.4S139  1 a 1 wreg ]
+"68
+[v setRSSIThreshold@msg msg `[2]uc  1 a 2 3 ]
+"67
+[v setRSSIThreshold@radio radio `*.4S139  1 a 1 wreg ]
+[v setRSSIThreshold@radio radio `*.4S139  1 a 1 5 ]
+"70
+} 0
+"106
+[v _setPreambleLength setPreambleLength `(v  1 e 1 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+[v setPreambleLength@radio radio `*.4S139  1 a 1 wreg ]
+"107
+[v setPreambleLength@msg msg `[2]uc  1 a 2 3 ]
+"106
+[v setPreambleLength@radio radio `*.4S139  1 a 1 wreg ]
+[v setPreambleLength@F9437 F9437 `[2]uc  1 s 2 F9437 ]
+[v setPreambleLength@radio radio `*.4S139  1 a 1 5 ]
+"109
+} 0
+"57
+[v _setPacketLength setPacketLength `(v  1 e 1 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+[v setPacketLength@radio radio `*.4S139  1 a 1 wreg ]
+"58
+[v setPacketLength@msg msg `[2]uc  1 a 2 3 ]
+"57
+[v setPacketLength@radio radio `*.4S139  1 a 1 wreg ]
+[v setPacketLength@radio radio `*.4S139  1 a 1 5 ]
+"60
+} 0
+"72
+[v _setPacketFormat setPacketFormat `(v  1 e 1 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+[v setPacketFormat@radio radio `*.4S139  1 a 1 wreg ]
+"73
+[v setPacketFormat@msg msg `[2]uc  1 a 2 3 ]
+"72
+[v setPacketFormat@radio radio `*.4S139  1 a 1 wreg ]
+[v setPacketFormat@F9415 F9415 `[2]uc  1 s 2 F9415 ]
+[v setPacketFormat@radio radio `*.4S139  1 a 1 5 ]
+"75
+} 0
+"62
+[v _setNodeAddress setNodeAddress `(v  1 e 1 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+[v setNodeAddress@radio radio `*.4S139  1 a 1 wreg ]
+"63
+[v setNodeAddress@msg msg `[2]uc  1 a 2 3 ]
+"62
+[v setNodeAddress@radio radio `*.4S139  1 a 1 wreg ]
+[v setNodeAddress@radio radio `*.4S139  1 a 1 5 ]
+"65
+} 0
+"86
+[v _setModulationThreshold setModulationThreshold `(v  1 e 1 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+[v setModulationThreshold@radio radio `*.4S139  1 a 1 wreg ]
+"87
+[v setModulationThreshold@msg msg `[2]uc  1 a 2 3 ]
+"86
+[v setModulationThreshold@radio radio `*.4S139  1 a 1 wreg ]
+[v setModulationThreshold@F9426 F9426 `[2]uc  1 s 2 F9426 ]
+[v setModulationThreshold@radio radio `*.4S139  1 a 1 5 ]
+"89
+} 0
+"60 C:\Users\User\MPLABXProjects\SolarRadio.X\receiver.c
+[v _init init `(i  1 e 2 0 ]
+{
+"63
+} 0
+"66
+[v _rfmSetup rfmSetup `(v  1 e 1 0 ]
+{
+"78
+} 0
+"107
+[v _spi_init_master spi_init_master `(v  1 e 1 0 ]
+{
+"126
+} 0
+"53
+[v _resetRadio resetRadio `(v  1 e 1 0 ]
+{
+"58
+} 0
+"136 C:\Users\User\MPLABXProjects\SolarRadio.X\RFM69HCW.c
+[v _getRSSI getRSSI `(uc  1 e 1 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+[v getRSSI@radio radio `*.4S139  1 a 1 wreg ]
+"137
+[v getRSSI@msg msg `[2]uc  1 a 2 4 ]
+"136
+[v getRSSI@radio radio `*.4S139  1 a 1 wreg ]
+[v getRSSI@F9452 F9452 `[2]uc  1 s 2 F9452 ]
+[v getRSSI@radio radio `*.4S139  1 a 1 3 ]
+"140
+} 0
+"154
+[v _getOperatingMode getOperatingMode `(uc  1 e 1 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+[v getOperatingMode@radio radio `*.4S139  1 a 1 wreg ]
+"155
+[v getOperatingMode@msg msg `[2]uc  1 a 2 4 ]
+"154
+[v getOperatingMode@radio radio `*.4S139  1 a 1 wreg ]
+[v getOperatingMode@F9464 F9464 `[2]uc  1 s 2 F9464 ]
+[v getOperatingMode@radio radio `*.4S139  1 a 1 3 ]
+"158
+} 0
+"166
+[v _getModeFlags getModeFlags `(uc  1 e 1 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+[v getModeFlags@radio radio `*.4S139  1 a 1 wreg ]
+"167
+[v getModeFlags@msg msg `[2]uc  1 a 2 4 ]
+"166
+[v getModeFlags@radio radio `*.4S139  1 a 1 wreg ]
+[v getModeFlags@F9473 F9473 `[2]uc  1 s 2 F9473 ]
+[v getModeFlags@radio radio `*.4S139  1 a 1 3 ]
+"170
+} 0
+"142
+[v _getFifoFlags getFifoFlags `(uc  1 e 1 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+[v getFifoFlags@radio radio `*.4S139  1 a 1 wreg ]
+"143
+[v getFifoFlags@msg msg `[2]uc  1 a 2 4 ]
+"142
+[v getFifoFlags@radio radio `*.4S139  1 a 1 wreg ]
+[v getFifoFlags@F9456 F9456 `[2]uc  1 s 2 F9456 ]
+[v getFifoFlags@radio radio `*.4S139  1 a 1 3 ]
+"146
+} 0
+"15
+[v _sendBulk sendBulk `(v  1 e 1 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+[v sendBulk@radio radio `*.4S139  1 a 1 wreg ]
+"17
+[v sendBulk@i i `i  1 a 2 0 ]
+"15
+[v sendBulk@radio radio `*.4S139  1 a 1 wreg ]
+[v sendBulk@msgs msgs `*.4uc  1 p 1 6 ]
+[v sendBulk@len len `DCuc  1 p 1 7 ]
+[v sendBulk@radio radio `*.4S139  1 a 1 2 ]
+"21
+} 0
+"40
+[v _setPinWithMask setPinWithMask `(v  1 e 1 0 ]
+{
+[v setPinWithMask@pPort pPort `*.39uc  1 p 2 0 ]
+[v setPinWithMask@iPin iPin `uc  1 p 1 2 ]
+[v setPinWithMask@value value `uc  1 p 1 3 ]
+"46
+} 0
+"24
+[v _send send `(uc  1 e 1 0 ]
+{
+[s S139 RFM69HCW 75 `[20]uc 1 received 20 0 `[20]uc 1 sent 20 20 `*.39uc 1 SSport 2 40 `uc 1 SSbit 1 42 `uc 1 packet_length 1 43 `[20]uc 1 payload 20 44 `uc 1 node_address 1 64 `uc 1 RSSI_threshold 1 65 `[8]uc 1 sync_words 8 66 `uc 1 sendReceiveIndex 1 74 ]
+[v send@radio radio `*.4S139  1 a 1 wreg ]
+[v send@radio radio `*.4S139  1 a 1 wreg ]
+[v send@msg msg `uc  1 p 1 0 ]
+[v send@radio radio `*.4S139  1 a 1 3 ]
+"38
+} 0
