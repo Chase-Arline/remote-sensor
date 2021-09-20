@@ -1,23 +1,3 @@
-/* Microchip Technology Inc. and its subsidiaries.  You may use this software 
- * and any derivatives exclusively with Microchip products. 
- * 
- * THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS".  NO WARRANTIES, WHETHER 
- * EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS SOFTWARE, INCLUDING ANY IMPLIED 
- * WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A 
- * PARTICULAR PURPOSE, OR ITS INTERACTION WITH MICROCHIP PRODUCTS, COMBINATION 
- * WITH ANY OTHER PRODUCTS, OR USE IN ANY APPLICATION. 
- *
- * IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, 
- * INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND 
- * WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF MICROCHIP HAS 
- * BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE.  TO THE 
- * FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL CLAIMS 
- * IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF FEES, IF 
- * ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
- *
- * MICROCHIP PROVIDES THIS SOFTWARE CONDITIONALLY UPON YOUR ACCEPTANCE OF THESE 
- * TERMS. 
- */
 
 /* 
  * File:   
@@ -26,10 +6,9 @@
  * Revision history: 
  */
 
-// This is a guard condition so that contents of this file are not included
-// more than once.  
-#ifndef XC_HEADER_TEMPLATE_H
-#define	XC_HEADER_TEMPLATE_H
+#ifndef RFM69HCW_H
+#define	RFM69HCW_H
+
 #define FIFO 0x00
 #define OPERATING_MODE 0x01
 #define DATA_MODE 0x02
@@ -46,7 +25,7 @@
 #define RSSI_CONFIG 0x23
 #define RSSI_VALUE 0x24
 #define PACKET_LEN 0x38
-#define NODE_ADDR 0x39
+#define NODE_ADDRESS 0x39
 #define BROADCAST_ADDR 0x40
 #define RSSI_THRESH 0x29
 #define FIFO_THRESH 0x3C
@@ -55,6 +34,7 @@
 #define RECEIVING 0xB0
 #define TRANSMITTING 0xAC
 #define STANDBY 0xA4 //0xA4 is forced mode by user version
+#define SLEEP_MODE 0xA0 //sleep mode forced by user
 #define POWER_REG 0x11
 #define LEN_MESSAGE_BOOK 20
 #define POWER_DEFAULT 0x9F
@@ -64,9 +44,7 @@
 #define WRITE 0x80
 #define AUTO_MODE 0x3B
 
-#include <xc.h> // include processor files - each processor file is guarded.  
-
-typedef unsigned char byte;
+#include "main.h"
 
 typedef struct RFM69HCW { 
    byte received[LEN_MESSAGE_BOOK];
@@ -78,7 +56,7 @@ typedef struct RFM69HCW {
    byte node_address;
    byte RSSI_threshold;
    byte sync_words[8];
-   byte sendReceiveIndex;
+   byte sendIndex; 
 } RFM69;
 
 byte SYNC_WORDS[8] = {0x67,0x67,0x67,0x67,0x67,0x67,0x67,0x67};

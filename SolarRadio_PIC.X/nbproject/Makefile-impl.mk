@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=SolarRadio.X
+PROJECTNAME=SolarRadio_PIC.X
 
 # Active Configuration
 DEFAULTCONF=default

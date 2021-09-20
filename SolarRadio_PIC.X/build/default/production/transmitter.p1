@@ -1,1 +1,1959 @@
 Version 4.0 HI-TECH Software Intermediate Code
+"3179 C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3179: extern volatile unsigned char ANSELA __attribute__((address(0x18C)));
+[v _ANSELA `Vuc ~T0 @X0 0 e@396 ]
+"3226
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3226: extern volatile unsigned char ANSELC __attribute__((address(0x18E)));
+[v _ANSELC `Vuc ~T0 @X0 0 e@398 ]
+"33886
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 33886: extern volatile __bit TRISC0 __attribute__((address(0x470)));
+[v _TRISC0 `Vb ~T0 @X0 0 e@1136 ]
+"33889
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 33889: extern volatile __bit TRISC1 __attribute__((address(0x471)));
+[v _TRISC1 `Vb ~T0 @X0 0 e@1137 ]
+"33892
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 33892: extern volatile __bit TRISC2 __attribute__((address(0x472)));
+[v _TRISC2 `Vb ~T0 @X0 0 e@1138 ]
+"33895
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 33895: extern volatile __bit TRISC3 __attribute__((address(0x473)));
+[v _TRISC3 `Vb ~T0 @X0 0 e@1139 ]
+"33901
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 33901: extern volatile __bit TRISC5 __attribute__((address(0x475)));
+[v _TRISC5 `Vb ~T0 @X0 0 e@1141 ]
+"33883
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 33883: extern volatile __bit TRISA5 __attribute__((address(0x465)));
+[v _TRISA5 `Vb ~T0 @X0 0 e@1125 ]
+"33874
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 33874: extern volatile __bit TRISA2 __attribute__((address(0x462)));
+[v _TRISA2 `Vb ~T0 @X0 0 e@1122 ]
+"33880
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 33880: extern volatile __bit TRISA4 __attribute__((address(0x464)));
+[v _TRISA4 `Vb ~T0 @X0 0 e@1124 ]
+"27256
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 27256: extern volatile __bit ANSA4 __attribute__((address(0xC64)));
+[v _ANSA4 `Vb ~T0 @X0 0 e@3172 ]
+"27217
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 27217: extern volatile __bit ADFM __attribute__((address(0x4F7)));
+[v _ADFM `Vb ~T0 @X0 0 e@1271 ]
+"34102
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 34102: extern volatile __bit WPUA4 __attribute__((address(0x1064)));
+[v _WPUA4 `Vb ~T0 @X0 0 e@4196 ]
+"486
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 486:     struct {
+[s S36 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S36 . RC0 RC1 RC2 RC3 RC4 RC5 ]
+"485
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 485: typedef union {
+[u S35 `S36 1 ]
+[n S35 . . ]
+"495
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 495: extern volatile PORTCbits_t PORTCbits __attribute__((address(0x00E)));
+[v _PORTCbits `VS35 ~T0 @X0 0 e@14 ]
+[v F184 `(v ~T0 @X0 1 tf1`ul ]
+"12 C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\builtins.h
+[v __delay `JF184 ~T0 @X0 0 e ]
+[p i __delay ]
+"54 transmitter.c
+[; ;transmitter.c: 54: void rfmSetup();
+[v _rfmSetup `(v ~T0 @X0 0 e? ]
+"4437 C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 4437: extern volatile unsigned char SSP1BUF __attribute__((address(0x211)));
+[v _SSP1BUF `Vuc ~T0 @X0 0 e@529 ]
+"5210
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5210:     struct {
+[s S267 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S267 . BF UA R_nW S P D_nA CKE SMP ]
+"5209
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5209: typedef union {
+[u S266 `S267 1 ]
+[n S266 . . ]
+"5221
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5221: extern volatile SSP1STATbits_t SSP1STATbits __attribute__((address(0x214)));
+[v _SSP1STATbits `VS266 ~T0 @X0 0 e@532 ]
+"52 transmitter.c
+[; ;transmitter.c: 52: void spi_init_master();
+[v _spi_init_master `(v ~T0 @X0 0 e? ]
+"2336 C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2336:     struct {
+[s S123 :1 `uc 1 :1 `uc 1 :5 `uc 1 ]
+[n S123 . ADON GO_nDONE CHS ]
+"2341
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2341:     struct {
+[s S124 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S124 . . ADGO CHS0 CHS1 CHS2 CHS3 CHS4 ]
+"2350
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2350:     struct {
+[s S125 :1 `uc 1 :1 `uc 1 ]
+[n S125 . . GO ]
+"2335
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2335: typedef union {
+[u S122 `S123 1 `S124 1 `S125 1 ]
+[n S122 . . . . ]
+"2355
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2355: extern volatile ADCON0bits_t ADCON0bits __attribute__((address(0x09D)));
+[v _ADCON0bits `VS122 ~T0 @X0 0 e@157 ]
+"27235
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 27235: extern volatile __bit ADON __attribute__((address(0x4E8)));
+[v _ADON `Vb ~T0 @X0 0 e@1256 ]
+"29053
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 29053: extern volatile __bit GO __attribute__((address(0x4E9)));
+[v _GO `Vb ~T0 @X0 0 e@1257 ]
+"2310
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2310: extern volatile unsigned char ADRESH __attribute__((address(0x09C)));
+[v _ADRESH `Vuc ~T0 @X0 0 e@156 ]
+"246 C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\c99\math.h
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\c99\math.h: 246: float logf(float);
+[v _logf `(f ~T0 @X0 0 ef1`f ]
+[p mainexit ]
+"49 ./RFM69HCW.h
+[; ;./RFM69HCW.h: 49: typedef struct RFM69HCW {
+[s S1180 `uc -> 20 `i `uc -> 20 `i `*uc 1 `uc 1 `uc 1 `uc -> 20 `i `uc 1 `uc 1 `uc -> 8 `i `uc 1 ]
+[n S1180 RFM69HCW received sent SSport SSbit packet_length payload node_address RSSI_threshold sync_words sendIndex ]
+"430 C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 430: extern volatile unsigned char PORTA __attribute__((address(0x00C)));
+[v _PORTA `Vuc ~T0 @X0 0 e@12 ]
+"71 ./RFM69HCW.h
+[; ;./RFM69HCW.h: 71: void initRadio(RFM69* radio);
+[v _initRadio `(v ~T0 @X0 0 ef1`*S1180 ]
+"76
+[; ;./RFM69HCW.h: 76: void setPowerOutput(RFM69* radio, byte powerSettings);
+[v _setPowerOutput `(v ~T0 @X0 0 ef2`*S1180`uc ]
+"72
+[; ;./RFM69HCW.h: 72: void setModulationThreshold(RFM69* radio);
+[v _setModulationThreshold `(v ~T0 @X0 0 ef1`*S1180 ]
+"74
+[; ;./RFM69HCW.h: 74: void setOperatingMode(RFM69* radio, byte operatingMode);
+[v _setOperatingMode `(v ~T0 @X0 0 ef2`*S1180`uc ]
+"86
+[; ;./RFM69HCW.h: 86: void setAutoMode(RFM69* radio, byte autoModes);
+[v _setAutoMode `(v ~T0 @X0 0 ef2`*S1180`uc ]
+"78
+[; ;./RFM69HCW.h: 78: byte getFifoFlags(RFM69* radio);
+[v _getFifoFlags `(uc ~T0 @X0 0 ef1`*S1180 ]
+"81
+[; ;./RFM69HCW.h: 81: byte getModeFlags(RFM69* radio);
+[v _getModeFlags `(uc ~T0 @X0 0 ef1`*S1180 ]
+"436 C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 436:     struct {
+[s S34 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S34 . RA0 RA1 RA2 RA3 RA4 RA5 ]
+"435
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 435: typedef union {
+[u S33 `S34 1 ]
+[n S33 . . ]
+"445
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 445: extern volatile PORTAbits_t PORTAbits __attribute__((address(0x00C)));
+[v _PORTAbits `VS33 ~T0 @X0 0 e@12 ]
+"73 ./RFM69HCW.h
+[; ;./RFM69HCW.h: 73: void sendPayload(RFM69* radio, byte payload[]);
+[v _sendPayload `(v ~T0 @X0 0 ef2`*S1180`*uc ]
+"79
+[; ;./RFM69HCW.h: 79: byte getOperatingMode(RFM69* radio);
+[v _getOperatingMode `(uc ~T0 @X0 0 ef1`*S1180 ]
+"5340 C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5340:     struct {
+[s S271 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S271 . SSPM CKP SSPEN SSPOV WCOL ]
+"5347
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5347:     struct {
+[s S272 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S272 . SSPM0 SSPM1 SSPM2 SSPM3 ]
+"5339
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5339: typedef union {
+[u S270 `S271 1 `S272 1 ]
+[n S270 . . . ]
+"5354
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5354: extern volatile SSP1CON1bits_t SSP1CON1bits __attribute__((address(0x215)));
+[v _SSP1CON1bits `VS270 ~T0 @X0 0 e@533 ]
+"5527
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5527:     struct {
+[s S280 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S280 . SSPM CKP SSPEN SSPOV WCOL ]
+"5534
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5534:     struct {
+[s S281 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S281 . SSPM0 SSPM1 SSPM2 SSPM3 ]
+"5526
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5526: typedef union {
+[u S279 `S280 1 `S281 1 ]
+[n S279 . . . ]
+"5541
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5541: extern volatile SSP1CONbits_t SSP1CONbits __attribute__((address(0x215)));
+[v _SSP1CONbits `VS279 ~T0 @X0 0 e@533 ]
+"22320
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 22320: extern volatile unsigned char RC0PPS __attribute__((address(0xEA0)));
+[v _RC0PPS `Vuc ~T0 @X0 0 e@3744 ]
+"21484
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21484: extern volatile unsigned char SSPDATPPS __attribute__((address(0xE21)));
+[v _SSPDATPPS `Vuc ~T0 @X0 0 e@3617 ]
+"22452
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 22452: extern volatile unsigned char RC3PPS __attribute__((address(0xEA3)));
+[v _RC3PPS `Vuc ~T0 @X0 0 e@3747 ]
+"6 transmitter.c
+[p x FOSC  =  INTOSC     ]
+"7
+[p x PWRTE  =  OFF       ]
+"8
+[p x MCLRE  =  ON       ]
+"9
+[p x CP  =  OFF          ]
+"10
+[p x BOREN  =  ON        ]
+"11
+[p x CLKOUTEN  =  OFF    ]
+"12
+[p x IESO  =  ON         ]
+"13
+[p x FCMEN  =  ON        ]
+"16
+[p x WRT  =  OFF         ]
+"17
+[p x PPS1WAY  =  ON      ]
+"18
+[p x ZCD  =  OFF         ]
+"19
+[p x PLLEN  =  OFF        ]
+"20
+[p x STVREN  =  ON       ]
+"21
+[p x BORV  =  LO         ]
+"22
+[p x LPBOR  =  OFF       ]
+"23
+[p x LVP  =  OFF     ]
+"26
+[p x WDTCPS  =  WDTCPS1F ]
+"27
+[p x WDTE  =  OFF        ]
+"28
+[p x WDTCWS  =  WDTCWSSW ]
+"29
+[p x WDTCCS  =  SWC      ]
+"55 C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 55: __asm("INDF0 equ 00h");
+[; <" INDF0 equ 00h ;# ">
+"75
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 75: __asm("INDF1 equ 01h");
+[; <" INDF1 equ 01h ;# ">
+"95
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 95: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"115
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 115: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"178
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 178: __asm("FSR0L equ 04h");
+[; <" FSR0L equ 04h ;# ">
+"198
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 198: __asm("FSR0H equ 05h");
+[; <" FSR0H equ 05h ;# ">
+"222
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 222: __asm("FSR1L equ 06h");
+[; <" FSR1L equ 06h ;# ">
+"242
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 242: __asm("FSR1H equ 07h");
+[; <" FSR1H equ 07h ;# ">
+"262
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 262: __asm("BSR equ 08h");
+[; <" BSR equ 08h ;# ">
+"314
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 314: __asm("WREG equ 09h");
+[; <" WREG equ 09h ;# ">
+"334
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 334: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"354
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 354: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"432
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 432: __asm("PORTA equ 0Ch");
+[; <" PORTA equ 0Ch ;# ">
+"482
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 482: __asm("PORTC equ 0Eh");
+[; <" PORTC equ 0Eh ;# ">
+"532
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 532: __asm("PIR1 equ 010h");
+[; <" PIR1 equ 010h ;# ">
+"594
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 594: __asm("PIR2 equ 011h");
+[; <" PIR2 equ 011h ;# ">
+"651
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 651: __asm("PIR3 equ 012h");
+[; <" PIR3 equ 012h ;# ">
+"701
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 701: __asm("PIR4 equ 013h");
+[; <" PIR4 equ 013h ;# ">
+"763
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 763: __asm("PIR5 equ 014h");
+[; <" PIR5 equ 014h ;# ">
+"820
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 820: __asm("TMR0 equ 015h");
+[; <" TMR0 equ 015h ;# ">
+"840
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 840: __asm("TMR1 equ 016h");
+[; <" TMR1 equ 016h ;# ">
+"847
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 847: __asm("TMR1L equ 016h");
+[; <" TMR1L equ 016h ;# ">
+"867
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 867: __asm("TMR1H equ 017h");
+[; <" TMR1H equ 017h ;# ">
+"887
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 887: __asm("T1CON equ 018h");
+[; <" T1CON equ 018h ;# ">
+"954
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 954: __asm("T1GCON equ 019h");
+[; <" T1GCON equ 019h ;# ">
+"1024
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 1024: __asm("T2TMR equ 01Ah");
+[; <" T2TMR equ 01Ah ;# ">
+"1029
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 1029: __asm("TMR2 equ 01Ah");
+[; <" TMR2 equ 01Ah ;# ">
+"1078
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 1078: __asm("T2PR equ 01Bh");
+[; <" T2PR equ 01Bh ;# ">
+"1083
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 1083: __asm("PR2 equ 01Bh");
+[; <" PR2 equ 01Bh ;# ">
+"1132
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 1132: __asm("T2CON equ 01Ch");
+[; <" T2CON equ 01Ch ;# ">
+"1278
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 1278: __asm("T2HLT equ 01Dh");
+[; <" T2HLT equ 01Dh ;# ">
+"1406
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 1406: __asm("T2CLKCON equ 01Eh");
+[; <" T2CLKCON equ 01Eh ;# ">
+"1486
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 1486: __asm("T2RST equ 01Fh");
+[; <" T2RST equ 01Fh ;# ">
+"1566
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 1566: __asm("TRISA equ 08Ch");
+[; <" TRISA equ 08Ch ;# ">
+"1616
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 1616: __asm("TRISC equ 08Eh");
+[; <" TRISC equ 08Eh ;# ">
+"1666
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 1666: __asm("PIE1 equ 090h");
+[; <" PIE1 equ 090h ;# ">
+"1728
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 1728: __asm("PIE2 equ 091h");
+[; <" PIE2 equ 091h ;# ">
+"1785
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 1785: __asm("PIE3 equ 092h");
+[; <" PIE3 equ 092h ;# ">
+"1835
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 1835: __asm("PIE4 equ 093h");
+[; <" PIE4 equ 093h ;# ">
+"1897
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 1897: __asm("PIE5 equ 094h");
+[; <" PIE5 equ 094h ;# ">
+"1954
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 1954: __asm("OPTION_REG equ 095h");
+[; <" OPTION_REG equ 095h ;# ">
+"2037
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2037: __asm("PCON equ 096h");
+[; <" PCON equ 096h ;# ">
+"2099
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2099: __asm("OSCTUNE equ 098h");
+[; <" OSCTUNE equ 098h ;# ">
+"2157
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2157: __asm("OSCCON equ 099h");
+[; <" OSCCON equ 099h ;# ">
+"2229
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2229: __asm("OSCSTAT equ 09Ah");
+[; <" OSCSTAT equ 09Ah ;# ">
+"2285
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2285: __asm("ADRES equ 09Bh");
+[; <" ADRES equ 09Bh ;# ">
+"2292
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2292: __asm("ADRESL equ 09Bh");
+[; <" ADRESL equ 09Bh ;# ">
+"2312
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2312: __asm("ADRESH equ 09Ch");
+[; <" ADRESH equ 09Ch ;# ">
+"2332
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2332: __asm("ADCON0 equ 09Dh");
+[; <" ADCON0 equ 09Dh ;# ">
+"2412
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2412: __asm("ADCON1 equ 09Eh");
+[; <" ADCON1 equ 09Eh ;# ">
+"2478
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2478: __asm("ADCON2 equ 09Fh");
+[; <" ADCON2 equ 09Fh ;# ">
+"2532
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2532: __asm("LATA equ 010Ch");
+[; <" LATA equ 010Ch ;# ">
+"2582
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2582: __asm("LATC equ 010Eh");
+[; <" LATC equ 010Eh ;# ">
+"2632
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2632: __asm("CM1CON0 equ 0111h");
+[; <" CM1CON0 equ 0111h ;# ">
+"2684
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2684: __asm("CM1CON1 equ 0112h");
+[; <" CM1CON1 equ 0112h ;# ">
+"2756
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2756: __asm("CM2CON0 equ 0113h");
+[; <" CM2CON0 equ 0113h ;# ">
+"2808
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2808: __asm("CM2CON1 equ 0114h");
+[; <" CM2CON1 equ 0114h ;# ">
+"2880
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2880: __asm("CMOUT equ 0115h");
+[; <" CMOUT equ 0115h ;# ">
+"2906
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2906: __asm("BORCON equ 0116h");
+[; <" BORCON equ 0116h ;# ">
+"2939
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 2939: __asm("FVRCON equ 0117h");
+[; <" FVRCON equ 0117h ;# ">
+"3015
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3015: __asm("DAC1CON0 equ 0118h");
+[; <" DAC1CON0 equ 0118h ;# ">
+"3065
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3065: __asm("DAC1CON1 equ 0119h");
+[; <" DAC1CON1 equ 0119h ;# ">
+"3135
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3135: __asm("ZCD1CON equ 011Ch");
+[; <" ZCD1CON equ 011Ch ;# ">
+"3181
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3181: __asm("ANSELA equ 018Ch");
+[; <" ANSELA equ 018Ch ;# ">
+"3228
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3228: __asm("ANSELC equ 018Eh");
+[; <" ANSELC equ 018Eh ;# ">
+"3274
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3274: __asm("PMADR equ 0191h");
+[; <" PMADR equ 0191h ;# ">
+"3281
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3281: __asm("PMADRL equ 0191h");
+[; <" PMADRL equ 0191h ;# ">
+"3301
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3301: __asm("PMADRH equ 0192h");
+[; <" PMADRH equ 0192h ;# ">
+"3321
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3321: __asm("PMDAT equ 0193h");
+[; <" PMDAT equ 0193h ;# ">
+"3328
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3328: __asm("PMDATL equ 0193h");
+[; <" PMDATL equ 0193h ;# ">
+"3348
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3348: __asm("PMDATH equ 0194h");
+[; <" PMDATH equ 0194h ;# ">
+"3368
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3368: __asm("PMCON1 equ 0195h");
+[; <" PMCON1 equ 0195h ;# ">
+"3424
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3424: __asm("PMCON2 equ 0196h");
+[; <" PMCON2 equ 0196h ;# ">
+"3444
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3444: __asm("VREGCON equ 0197h");
+[; <" VREGCON equ 0197h ;# ">
+"3478
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3478: __asm("RC1REG equ 0199h");
+[; <" RC1REG equ 0199h ;# ">
+"3483
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3483: __asm("RCREG equ 0199h");
+[; <" RCREG equ 0199h ;# ">
+"3487
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3487: __asm("RCREG1 equ 0199h");
+[; <" RCREG1 equ 0199h ;# ">
+"3532
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3532: __asm("TX1REG equ 019Ah");
+[; <" TX1REG equ 019Ah ;# ">
+"3537
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3537: __asm("TXREG1 equ 019Ah");
+[; <" TXREG1 equ 019Ah ;# ">
+"3541
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3541: __asm("TXREG equ 019Ah");
+[; <" TXREG equ 019Ah ;# ">
+"3586
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3586: __asm("SP1BRG equ 019Bh");
+[; <" SP1BRG equ 019Bh ;# ">
+"3593
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3593: __asm("SP1BRGL equ 019Bh");
+[; <" SP1BRGL equ 019Bh ;# ">
+"3598
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3598: __asm("SPBRG equ 019Bh");
+[; <" SPBRG equ 019Bh ;# ">
+"3602
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3602: __asm("SPBRG1 equ 019Bh");
+[; <" SPBRG1 equ 019Bh ;# ">
+"3606
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3606: __asm("SPBRGL equ 019Bh");
+[; <" SPBRGL equ 019Bh ;# ">
+"3663
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3663: __asm("SP1BRGH equ 019Ch");
+[; <" SP1BRGH equ 019Ch ;# ">
+"3668
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3668: __asm("SPBRGH equ 019Ch");
+[; <" SPBRGH equ 019Ch ;# ">
+"3672
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3672: __asm("SPBRGH1 equ 019Ch");
+[; <" SPBRGH1 equ 019Ch ;# ">
+"3717
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3717: __asm("RC1STA equ 019Dh");
+[; <" RC1STA equ 019Dh ;# ">
+"3722
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3722: __asm("RCSTA1 equ 019Dh");
+[; <" RCSTA1 equ 019Dh ;# ">
+"3726
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3726: __asm("RCSTA equ 019Dh");
+[; <" RCSTA equ 019Dh ;# ">
+"3897
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3897: __asm("TX1STA equ 019Eh");
+[; <" TX1STA equ 019Eh ;# ">
+"3902
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3902: __asm("TXSTA1 equ 019Eh");
+[; <" TXSTA1 equ 019Eh ;# ">
+"3906
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 3906: __asm("TXSTA equ 019Eh");
+[; <" TXSTA equ 019Eh ;# ">
+"4077
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 4077: __asm("BAUD1CON equ 019Fh");
+[; <" BAUD1CON equ 019Fh ;# ">
+"4082
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 4082: __asm("BAUDCON1 equ 019Fh");
+[; <" BAUDCON1 equ 019Fh ;# ">
+"4086
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 4086: __asm("BAUDCTL1 equ 019Fh");
+[; <" BAUDCTL1 equ 019Fh ;# ">
+"4090
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 4090: __asm("BAUDCON equ 019Fh");
+[; <" BAUDCON equ 019Fh ;# ">
+"4094
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 4094: __asm("BAUDCTL equ 019Fh");
+[; <" BAUDCTL equ 019Fh ;# ">
+"4323
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 4323: __asm("WPUA equ 020Ch");
+[; <" WPUA equ 020Ch ;# ">
+"4381
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 4381: __asm("WPUC equ 020Eh");
+[; <" WPUC equ 020Eh ;# ">
+"4439
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 4439: __asm("SSP1BUF equ 0211h");
+[; <" SSP1BUF equ 0211h ;# ">
+"4444
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 4444: __asm("SSPBUF equ 0211h");
+[; <" SSPBUF equ 0211h ;# ">
+"4693
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 4693: __asm("SSP1ADD equ 0212h");
+[; <" SSP1ADD equ 0212h ;# ">
+"4698
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 4698: __asm("SSPADD equ 0212h");
+[; <" SSPADD equ 0212h ;# ">
+"4947
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 4947: __asm("SSP1MSK equ 0213h");
+[; <" SSP1MSK equ 0213h ;# ">
+"4952
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 4952: __asm("SSPMSK equ 0213h");
+[; <" SSPMSK equ 0213h ;# ">
+"5201
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5201: __asm("SSP1STAT equ 0214h");
+[; <" SSP1STAT equ 0214h ;# ">
+"5206
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5206: __asm("SSPSTAT equ 0214h");
+[; <" SSPSTAT equ 0214h ;# ">
+"5323
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5323: __asm("SSP1CON1 equ 0215h");
+[; <" SSP1CON1 equ 0215h ;# ">
+"5328
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5328: __asm("SSPCON equ 0215h");
+[; <" SSPCON equ 0215h ;# ">
+"5332
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5332: __asm("SSPCON1 equ 0215h");
+[; <" SSPCON1 equ 0215h ;# ">
+"5336
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5336: __asm("SSP1CON equ 0215h");
+[; <" SSP1CON equ 0215h ;# ">
+"5593
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5593: __asm("SSP1CON2 equ 0216h");
+[; <" SSP1CON2 equ 0216h ;# ">
+"5598
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5598: __asm("SSPCON2 equ 0216h");
+[; <" SSPCON2 equ 0216h ;# ">
+"5715
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5715: __asm("SSP1CON3 equ 0217h");
+[; <" SSP1CON3 equ 0217h ;# ">
+"5720
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5720: __asm("SSPCON3 equ 0217h");
+[; <" SSPCON3 equ 0217h ;# ">
+"5837
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5837: __asm("ODCONA equ 028Ch");
+[; <" ODCONA equ 028Ch ;# ">
+"5882
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5882: __asm("ODCONC equ 028Eh");
+[; <" ODCONC equ 028Eh ;# ">
+"5932
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5932: __asm("CCPR1 equ 0291h");
+[; <" CCPR1 equ 0291h ;# ">
+"5939
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5939: __asm("CCPR1L equ 0291h");
+[; <" CCPR1L equ 0291h ;# ">
+"5959
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5959: __asm("CCPR1H equ 0292h");
+[; <" CCPR1H equ 0292h ;# ">
+"5979
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 5979: __asm("CCP1CON equ 0293h");
+[; <" CCP1CON equ 0293h ;# ">
+"6097
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 6097: __asm("CCP1CAP equ 0294h");
+[; <" CCP1CAP equ 0294h ;# ">
+"6165
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 6165: __asm("CCPR2 equ 0298h");
+[; <" CCPR2 equ 0298h ;# ">
+"6172
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 6172: __asm("CCPR2L equ 0298h");
+[; <" CCPR2L equ 0298h ;# ">
+"6192
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 6192: __asm("CCPR2H equ 0299h");
+[; <" CCPR2H equ 0299h ;# ">
+"6212
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 6212: __asm("CCP2CON equ 029Ah");
+[; <" CCP2CON equ 029Ah ;# ">
+"6330
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 6330: __asm("CCP2CAP equ 029Bh");
+[; <" CCP2CAP equ 029Bh ;# ">
+"6398
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 6398: __asm("CCPTMRS equ 029Eh");
+[; <" CCPTMRS equ 029Eh ;# ">
+"6486
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 6486: __asm("SLRCONA equ 030Ch");
+[; <" SLRCONA equ 030Ch ;# ">
+"6531
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 6531: __asm("SLRCONC equ 030Eh");
+[; <" SLRCONC equ 030Eh ;# ">
+"6581
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 6581: __asm("INLVLA equ 038Ch");
+[; <" INLVLA equ 038Ch ;# ">
+"6631
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 6631: __asm("INLVLC equ 038Eh");
+[; <" INLVLC equ 038Eh ;# ">
+"6681
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 6681: __asm("IOCAP equ 0391h");
+[; <" IOCAP equ 0391h ;# ">
+"6739
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 6739: __asm("IOCAN equ 0392h");
+[; <" IOCAN equ 0392h ;# ">
+"6797
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 6797: __asm("IOCAF equ 0393h");
+[; <" IOCAF equ 0393h ;# ">
+"6855
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 6855: __asm("IOCCP equ 0397h");
+[; <" IOCCP equ 0397h ;# ">
+"6917
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 6917: __asm("IOCCN equ 0398h");
+[; <" IOCCN equ 0398h ;# ">
+"6979
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 6979: __asm("IOCCF equ 0399h");
+[; <" IOCCF equ 0399h ;# ">
+"7041
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 7041: __asm("HIDRVC equ 040Eh");
+[; <" HIDRVC equ 040Eh ;# ">
+"7068
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 7068: __asm("T4TMR equ 0413h");
+[; <" T4TMR equ 0413h ;# ">
+"7073
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 7073: __asm("TMR4 equ 0413h");
+[; <" TMR4 equ 0413h ;# ">
+"7122
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 7122: __asm("T4PR equ 0414h");
+[; <" T4PR equ 0414h ;# ">
+"7127
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 7127: __asm("PR4 equ 0414h");
+[; <" PR4 equ 0414h ;# ">
+"7176
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 7176: __asm("T4CON equ 0415h");
+[; <" T4CON equ 0415h ;# ">
+"7322
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 7322: __asm("T4HLT equ 0416h");
+[; <" T4HLT equ 0416h ;# ">
+"7450
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 7450: __asm("T4CLKCON equ 0417h");
+[; <" T4CLKCON equ 0417h ;# ">
+"7530
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 7530: __asm("T4RST equ 0418h");
+[; <" T4RST equ 0418h ;# ">
+"7610
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 7610: __asm("T6TMR equ 041Ah");
+[; <" T6TMR equ 041Ah ;# ">
+"7615
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 7615: __asm("TMR6 equ 041Ah");
+[; <" TMR6 equ 041Ah ;# ">
+"7664
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 7664: __asm("T6PR equ 041Bh");
+[; <" T6PR equ 041Bh ;# ">
+"7669
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 7669: __asm("PR6 equ 041Bh");
+[; <" PR6 equ 041Bh ;# ">
+"7718
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 7718: __asm("T6CON equ 041Ch");
+[; <" T6CON equ 041Ch ;# ">
+"7864
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 7864: __asm("T6HLT equ 041Dh");
+[; <" T6HLT equ 041Dh ;# ">
+"7992
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 7992: __asm("T6CLKCON equ 041Eh");
+[; <" T6CLKCON equ 041Eh ;# ">
+"8072
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 8072: __asm("T6RST equ 041Fh");
+[; <" T6RST equ 041Fh ;# ">
+"8152
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 8152: __asm("TMR3L equ 0493h");
+[; <" TMR3L equ 0493h ;# ">
+"8172
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 8172: __asm("TMR3H equ 0494h");
+[; <" TMR3H equ 0494h ;# ">
+"8192
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 8192: __asm("T3CON equ 0495h");
+[; <" T3CON equ 0495h ;# ">
+"8259
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 8259: __asm("T3GCON equ 0496h");
+[; <" T3GCON equ 0496h ;# ">
+"8329
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 8329: __asm("TMR5L equ 049Ah");
+[; <" TMR5L equ 049Ah ;# ">
+"8349
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 8349: __asm("TMR5H equ 049Bh");
+[; <" TMR5H equ 049Bh ;# ">
+"8369
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 8369: __asm("T5CON equ 049Ch");
+[; <" T5CON equ 049Ch ;# ">
+"8436
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 8436: __asm("T5GCON equ 049Dh");
+[; <" T5GCON equ 049Dh ;# ">
+"8506
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 8506: __asm("PID1SET equ 058Ch");
+[; <" PID1SET equ 058Ch ;# ">
+"8513
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 8513: __asm("PID1SETL equ 058Ch");
+[; <" PID1SETL equ 058Ch ;# ">
+"8625
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 8625: __asm("PID1SETH equ 058Dh");
+[; <" PID1SETH equ 058Dh ;# ">
+"8737
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 8737: __asm("PID1IN equ 058Eh");
+[; <" PID1IN equ 058Eh ;# ">
+"8744
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 8744: __asm("PID1INL equ 058Eh");
+[; <" PID1INL equ 058Eh ;# ">
+"8856
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 8856: __asm("PID1INH equ 058Fh");
+[; <" PID1INH equ 058Fh ;# ">
+"8968
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 8968: __asm("PID1K1 equ 0590h");
+[; <" PID1K1 equ 0590h ;# ">
+"8975
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 8975: __asm("PID1K1L equ 0590h");
+[; <" PID1K1L equ 0590h ;# ">
+"9087
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 9087: __asm("PID1K1H equ 0591h");
+[; <" PID1K1H equ 0591h ;# ">
+"9199
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 9199: __asm("PID1K2 equ 0592h");
+[; <" PID1K2 equ 0592h ;# ">
+"9206
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 9206: __asm("PID1K2L equ 0592h");
+[; <" PID1K2L equ 0592h ;# ">
+"9318
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 9318: __asm("PID1K2H equ 0593h");
+[; <" PID1K2H equ 0593h ;# ">
+"9430
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 9430: __asm("PID1K3 equ 0594h");
+[; <" PID1K3 equ 0594h ;# ">
+"9437
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 9437: __asm("PID1K3L equ 0594h");
+[; <" PID1K3L equ 0594h ;# ">
+"9549
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 9549: __asm("PID1K3H equ 0595h");
+[; <" PID1K3H equ 0595h ;# ">
+"9660
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 9660: __asm("PID1OUT equ 0596h");
+[; <" PID1OUT equ 0596h ;# ">
+"9667
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 9667: __asm("PID1OUTLL equ 0596h");
+[; <" PID1OUTLL equ 0596h ;# ">
+"9779
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 9779: __asm("PID1OUTLH equ 0597h");
+[; <" PID1OUTLH equ 0597h ;# ">
+"9891
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 9891: __asm("PID1OUTHL equ 0598h");
+[; <" PID1OUTHL equ 0598h ;# ">
+"10003
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 10003: __asm("PID1OUTHH equ 0599h");
+[; <" PID1OUTHH equ 0599h ;# ">
+"10115
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 10115: __asm("PID1OUTU equ 059Ah");
+[; <" PID1OUTU equ 059Ah ;# ">
+"10181
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 10181: __asm("PID1Z1 equ 059Bh");
+[; <" PID1Z1 equ 059Bh ;# ">
+"10188
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 10188: __asm("PID1Z1L equ 059Bh");
+[; <" PID1Z1L equ 059Bh ;# ">
+"10300
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 10300: __asm("PID1Z1H equ 059Ch");
+[; <" PID1Z1H equ 059Ch ;# ">
+"10412
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 10412: __asm("PID1Z1U equ 059Dh");
+[; <" PID1Z1U equ 059Dh ;# ">
+"10442
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 10442: __asm("PID1Z2 equ 060Ch");
+[; <" PID1Z2 equ 060Ch ;# ">
+"10449
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 10449: __asm("PID1Z2L equ 060Ch");
+[; <" PID1Z2L equ 060Ch ;# ">
+"10561
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 10561: __asm("PID1Z2H equ 060Dh");
+[; <" PID1Z2H equ 060Dh ;# ">
+"10673
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 10673: __asm("PID1Z2U equ 060Eh");
+[; <" PID1Z2U equ 060Eh ;# ">
+"10700
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 10700: __asm("PID1ACC equ 060Fh");
+[; <" PID1ACC equ 060Fh ;# ">
+"10707
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 10707: __asm("PID1ACCLL equ 060Fh");
+[; <" PID1ACCLL equ 060Fh ;# ">
+"10819
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 10819: __asm("PID1ACCLH equ 0610h");
+[; <" PID1ACCLH equ 0610h ;# ">
+"10931
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 10931: __asm("PID1ACCHL equ 0611h");
+[; <" PID1ACCHL equ 0611h ;# ">
+"11043
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 11043: __asm("PID1ACCHH equ 0612h");
+[; <" PID1ACCHH equ 0612h ;# ">
+"11155
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 11155: __asm("PID1ACCU equ 0613h");
+[; <" PID1ACCU equ 0613h ;# ">
+"11207
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 11207: __asm("PID1CON equ 0614h");
+[; <" PID1CON equ 0614h ;# ">
+"11301
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 11301: __asm("PWM3DC equ 0617h");
+[; <" PWM3DC equ 0617h ;# ">
+"11308
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 11308: __asm("PWM3DCL equ 0617h");
+[; <" PWM3DCL equ 0617h ;# ">
+"11374
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 11374: __asm("PWM3DCH equ 0618h");
+[; <" PWM3DCH equ 0618h ;# ">
+"11544
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 11544: __asm("PWM3CON equ 0619h");
+[; <" PWM3CON equ 0619h ;# ">
+"11600
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 11600: __asm("PWM4DC equ 061Ah");
+[; <" PWM4DC equ 061Ah ;# ">
+"11607
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 11607: __asm("PWM4DCL equ 061Ah");
+[; <" PWM4DCL equ 061Ah ;# ">
+"11673
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 11673: __asm("PWM4DCH equ 061Bh");
+[; <" PWM4DCH equ 061Bh ;# ">
+"11843
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 11843: __asm("PWM4CON equ 061Ch");
+[; <" PWM4CON equ 061Ch ;# ">
+"11899
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 11899: __asm("CWG1DBR equ 0691h");
+[; <" CWG1DBR equ 0691h ;# ">
+"12003
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 12003: __asm("CWG1DBF equ 0692h");
+[; <" CWG1DBF equ 0692h ;# ">
+"12107
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 12107: __asm("CWG1AS0 equ 0693h");
+[; <" CWG1AS0 equ 0693h ;# ">
+"12227
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 12227: __asm("CWG1AS1 equ 0694h");
+[; <" CWG1AS1 equ 0694h ;# ">
+"12317
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 12317: __asm("CWG1OCON0 equ 0695h");
+[; <" CWG1OCON0 equ 0695h ;# ">
+"12429
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 12429: __asm("CWG1CON0 equ 0696h");
+[; <" CWG1CON0 equ 0696h ;# ">
+"12530
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 12530: __asm("CWG1CON1 equ 0697h");
+[; <" CWG1CON1 equ 0697h ;# ">
+"12608
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 12608: __asm("CWG1CLKCON equ 0699h");
+[; <" CWG1CLKCON equ 0699h ;# ">
+"12636
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 12636: __asm("CWG1ISM equ 069Ah");
+[; <" CWG1ISM equ 069Ah ;# ">
+"12716
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 12716: __asm("WDTCON0 equ 0711h");
+[; <" WDTCON0 equ 0711h ;# ">
+"12791
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 12791: __asm("WDTCON1 equ 0712h");
+[; <" WDTCON1 equ 0712h ;# ">
+"12885
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 12885: __asm("WDTPSL equ 0713h");
+[; <" WDTPSL equ 0713h ;# ">
+"13013
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 13013: __asm("WDTPSH equ 0714h");
+[; <" WDTPSH equ 0714h ;# ">
+"13141
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 13141: __asm("WDTTMR equ 0715h");
+[; <" WDTTMR equ 0715h ;# ">
+"13229
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 13229: __asm("SCANLADR equ 0718h");
+[; <" SCANLADR equ 0718h ;# ">
+"13236
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 13236: __asm("SCANLADRL equ 0718h");
+[; <" SCANLADRL equ 0718h ;# ">
+"13364
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 13364: __asm("SCANLADRH equ 0719h");
+[; <" SCANLADRH equ 0719h ;# ">
+"13492
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 13492: __asm("SCANHADR equ 071Ah");
+[; <" SCANHADR equ 071Ah ;# ">
+"13499
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 13499: __asm("SCANHADRL equ 071Ah");
+[; <" SCANHADRL equ 071Ah ;# ">
+"13627
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 13627: __asm("SCANHADRH equ 071Bh");
+[; <" SCANHADRH equ 071Bh ;# ">
+"13755
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 13755: __asm("SCANCON0 equ 071Ch");
+[; <" SCANCON0 equ 071Ch ;# ">
+"13868
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 13868: __asm("SCANTRIG equ 071Dh");
+[; <" SCANTRIG equ 071Dh ;# ">
+"13948
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 13948: __asm("CRCDAT equ 0791h");
+[; <" CRCDAT equ 0791h ;# ">
+"13955
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 13955: __asm("CRCDATL equ 0791h");
+[; <" CRCDATL equ 0791h ;# ">
+"14083
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 14083: __asm("CRCDATH equ 0792h");
+[; <" CRCDATH equ 0792h ;# ">
+"14211
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 14211: __asm("CRCACC equ 0793h");
+[; <" CRCACC equ 0793h ;# ">
+"14218
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 14218: __asm("CRCACCL equ 0793h");
+[; <" CRCACCL equ 0793h ;# ">
+"14346
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 14346: __asm("CRCACCH equ 0794h");
+[; <" CRCACCH equ 0794h ;# ">
+"14474
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 14474: __asm("CRCSHIFT equ 0795h");
+[; <" CRCSHIFT equ 0795h ;# ">
+"14481
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 14481: __asm("CRCSHIFTL equ 0795h");
+[; <" CRCSHIFTL equ 0795h ;# ">
+"14609
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 14609: __asm("CRCSHIFTH equ 0796h");
+[; <" CRCSHIFTH equ 0796h ;# ">
+"14737
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 14737: __asm("CRCXOR equ 0797h");
+[; <" CRCXOR equ 0797h ;# ">
+"14744
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 14744: __asm("CRCXORL equ 0797h");
+[; <" CRCXORL equ 0797h ;# ">
+"14846
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 14846: __asm("CRCXORH equ 0798h");
+[; <" CRCXORH equ 0798h ;# ">
+"14958
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 14958: __asm("CRCCON0 equ 0799h");
+[; <" CRCCON0 equ 0799h ;# ">
+"15043
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 15043: __asm("CRCCON1 equ 079Ah");
+[; <" CRCCON1 equ 079Ah ;# ">
+"15183
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 15183: __asm("AT1RES equ 080Ch");
+[; <" AT1RES equ 080Ch ;# ">
+"15190
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 15190: __asm("AT1RESL equ 080Ch");
+[; <" AT1RESL equ 080Ch ;# ">
+"15302
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 15302: __asm("AT1RESH equ 080Dh");
+[; <" AT1RESH equ 080Dh ;# ">
+"15342
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 15342: __asm("AT1MISS equ 080Eh");
+[; <" AT1MISS equ 080Eh ;# ">
+"15349
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 15349: __asm("AT1MISSL equ 080Eh");
+[; <" AT1MISSL equ 080Eh ;# ">
+"15461
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 15461: __asm("AT1MISSH equ 080Fh");
+[; <" AT1MISSH equ 080Fh ;# ">
+"15573
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 15573: __asm("AT1PER equ 0810h");
+[; <" AT1PER equ 0810h ;# ">
+"15580
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 15580: __asm("AT1PERL equ 0810h");
+[; <" AT1PERL equ 0810h ;# ">
+"15742
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 15742: __asm("AT1PERH equ 0811h");
+[; <" AT1PERH equ 0811h ;# ">
+"15904
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 15904: __asm("AT1PHS equ 0812h");
+[; <" AT1PHS equ 0812h ;# ">
+"15911
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 15911: __asm("AT1PHSL equ 0812h");
+[; <" AT1PHSL equ 0812h ;# ">
+"16023
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 16023: __asm("AT1PHSH equ 0813h");
+[; <" AT1PHSH equ 0813h ;# ">
+"16077
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 16077: __asm("AT1CON0 equ 0814h");
+[; <" AT1CON0 equ 0814h ;# ">
+"16197
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 16197: __asm("AT1CON1 equ 0815h");
+[; <" AT1CON1 equ 0815h ;# ">
+"16277
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 16277: __asm("AT1IR0 equ 0816h");
+[; <" AT1IR0 equ 0816h ;# ">
+"16309
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 16309: __asm("AT1IE0 equ 0817h");
+[; <" AT1IE0 equ 0817h ;# ">
+"16341
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 16341: __asm("AT1IR1 equ 0818h");
+[; <" AT1IR1 equ 0818h ;# ">
+"16373
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 16373: __asm("AT1IE1 equ 0819h");
+[; <" AT1IE1 equ 0819h ;# ">
+"16405
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 16405: __asm("AT1STPT equ 081Ah");
+[; <" AT1STPT equ 081Ah ;# ">
+"16412
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 16412: __asm("AT1STPTL equ 081Ah");
+[; <" AT1STPTL equ 081Ah ;# ">
+"16524
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 16524: __asm("AT1STPTH equ 081Bh");
+[; <" AT1STPTH equ 081Bh ;# ">
+"16624
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 16624: __asm("AT1ERR equ 081Ch");
+[; <" AT1ERR equ 081Ch ;# ">
+"16631
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 16631: __asm("AT1ERRL equ 081Ch");
+[; <" AT1ERRL equ 081Ch ;# ">
+"16793
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 16793: __asm("AT1ERRH equ 081Dh");
+[; <" AT1ERRH equ 081Dh ;# ">
+"16955
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 16955: __asm("AT1CLK equ 088Ch");
+[; <" AT1CLK equ 088Ch ;# ">
+"16999
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 16999: __asm("AT1SIG equ 088Dh");
+[; <" AT1SIG equ 088Dh ;# ">
+"17067
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 17067: __asm("AT1CSEL1 equ 088Eh");
+[; <" AT1CSEL1 equ 088Eh ;# ">
+"17135
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 17135: __asm("AT1CC1 equ 088Fh");
+[; <" AT1CC1 equ 088Fh ;# ">
+"17142
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 17142: __asm("AT1CC1L equ 088Fh");
+[; <" AT1CC1L equ 088Fh ;# ">
+"17254
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 17254: __asm("AT1CC1H equ 0890h");
+[; <" AT1CC1H equ 0890h ;# ">
+"17294
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 17294: __asm("AT1CCON1 equ 0891h");
+[; <" AT1CCON1 equ 0891h ;# ">
+"17362
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 17362: __asm("AT1CSEL2 equ 0892h");
+[; <" AT1CSEL2 equ 0892h ;# ">
+"17430
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 17430: __asm("AT1CC2 equ 0893h");
+[; <" AT1CC2 equ 0893h ;# ">
+"17437
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 17437: __asm("AT1CC2L equ 0893h");
+[; <" AT1CC2L equ 0893h ;# ">
+"17549
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 17549: __asm("AT1CC2H equ 0894h");
+[; <" AT1CC2H equ 0894h ;# ">
+"17589
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 17589: __asm("AT1CCON2 equ 0895h");
+[; <" AT1CCON2 equ 0895h ;# ">
+"17657
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 17657: __asm("AT1CSEL3 equ 0896h");
+[; <" AT1CSEL3 equ 0896h ;# ">
+"17725
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 17725: __asm("AT1CC3 equ 0897h");
+[; <" AT1CC3 equ 0897h ;# ">
+"17732
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 17732: __asm("AT1CC3L equ 0897h");
+[; <" AT1CC3L equ 0897h ;# ">
+"17844
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 17844: __asm("AT1CC3H equ 0898h");
+[; <" AT1CC3H equ 0898h ;# ">
+"17884
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 17884: __asm("AT1CCON3 equ 0899h");
+[; <" AT1CCON3 equ 0899h ;# ">
+"17954
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 17954: __asm("SMT1TMR equ 0D8Ch");
+[; <" SMT1TMR equ 0D8Ch ;# ">
+"17961
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 17961: __asm("SMT1TMRL equ 0D8Ch");
+[; <" SMT1TMRL equ 0D8Ch ;# ">
+"18031
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 18031: __asm("SMT1TMRH equ 0D8Dh");
+[; <" SMT1TMRH equ 0D8Dh ;# ">
+"18101
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 18101: __asm("SMT1TMRU equ 0D8Eh");
+[; <" SMT1TMRU equ 0D8Eh ;# ">
+"18173
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 18173: __asm("SMT1CPR equ 0D8Fh");
+[; <" SMT1CPR equ 0D8Fh ;# ">
+"18180
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 18180: __asm("SMT1CPRL equ 0D8Fh");
+[; <" SMT1CPRL equ 0D8Fh ;# ">
+"18250
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 18250: __asm("SMT1CPRH equ 0D90h");
+[; <" SMT1CPRH equ 0D90h ;# ">
+"18320
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 18320: __asm("SMT1CPRU equ 0D91h");
+[; <" SMT1CPRU equ 0D91h ;# ">
+"18392
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 18392: __asm("SMT1CPW equ 0D92h");
+[; <" SMT1CPW equ 0D92h ;# ">
+"18399
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 18399: __asm("SMT1CPWL equ 0D92h");
+[; <" SMT1CPWL equ 0D92h ;# ">
+"18469
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 18469: __asm("SMT1CPWH equ 0D93h");
+[; <" SMT1CPWH equ 0D93h ;# ">
+"18539
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 18539: __asm("SMT1CPWU equ 0D94h");
+[; <" SMT1CPWU equ 0D94h ;# ">
+"18611
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 18611: __asm("SMT1PR equ 0D95h");
+[; <" SMT1PR equ 0D95h ;# ">
+"18618
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 18618: __asm("SMT1PRL equ 0D95h");
+[; <" SMT1PRL equ 0D95h ;# ">
+"18688
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 18688: __asm("SMT1PRH equ 0D96h");
+[; <" SMT1PRH equ 0D96h ;# ">
+"18758
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 18758: __asm("SMT1PRU equ 0D97h");
+[; <" SMT1PRU equ 0D97h ;# ">
+"18828
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 18828: __asm("SMT1CON0 equ 0D98h");
+[; <" SMT1CON0 equ 0D98h ;# ">
+"18893
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 18893: __asm("SMT1CON1 equ 0D99h");
+[; <" SMT1CON1 equ 0D99h ;# ">
+"18993
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 18993: __asm("SMT1STAT equ 0D9Ah");
+[; <" SMT1STAT equ 0D9Ah ;# ">
+"19083
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 19083: __asm("SMT1CLK equ 0D9Bh");
+[; <" SMT1CLK equ 0D9Bh ;# ">
+"19151
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 19151: __asm("SMT1SIG equ 0D9Ch");
+[; <" SMT1SIG equ 0D9Ch ;# ">
+"19243
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 19243: __asm("SMT1WIN equ 0D9Dh");
+[; <" SMT1WIN equ 0D9Dh ;# ">
+"19337
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 19337: __asm("SMT2TMR equ 0D9Eh");
+[; <" SMT2TMR equ 0D9Eh ;# ">
+"19344
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 19344: __asm("SMT2TMRL equ 0D9Eh");
+[; <" SMT2TMRL equ 0D9Eh ;# ">
+"19414
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 19414: __asm("SMT2TMRH equ 0D9Fh");
+[; <" SMT2TMRH equ 0D9Fh ;# ">
+"19484
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 19484: __asm("SMT2TMRU equ 0DA0h");
+[; <" SMT2TMRU equ 0DA0h ;# ">
+"19556
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 19556: __asm("SMT2CPR equ 0DA1h");
+[; <" SMT2CPR equ 0DA1h ;# ">
+"19563
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 19563: __asm("SMT2CPRL equ 0DA1h");
+[; <" SMT2CPRL equ 0DA1h ;# ">
+"19633
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 19633: __asm("SMT2CPRH equ 0DA2h");
+[; <" SMT2CPRH equ 0DA2h ;# ">
+"19703
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 19703: __asm("SMT2CPRU equ 0DA3h");
+[; <" SMT2CPRU equ 0DA3h ;# ">
+"19775
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 19775: __asm("SMT2CPW equ 0DA4h");
+[; <" SMT2CPW equ 0DA4h ;# ">
+"19782
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 19782: __asm("SMT2CPWL equ 0DA4h");
+[; <" SMT2CPWL equ 0DA4h ;# ">
+"19852
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 19852: __asm("SMT2CPWH equ 0DA5h");
+[; <" SMT2CPWH equ 0DA5h ;# ">
+"19922
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 19922: __asm("SMT2CPWU equ 0DA6h");
+[; <" SMT2CPWU equ 0DA6h ;# ">
+"19994
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 19994: __asm("SMT2PR equ 0DA7h");
+[; <" SMT2PR equ 0DA7h ;# ">
+"20001
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 20001: __asm("SMT2PRL equ 0DA7h");
+[; <" SMT2PRL equ 0DA7h ;# ">
+"20071
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 20071: __asm("SMT2PRH equ 0DA8h");
+[; <" SMT2PRH equ 0DA8h ;# ">
+"20141
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 20141: __asm("SMT2PRU equ 0DA9h");
+[; <" SMT2PRU equ 0DA9h ;# ">
+"20211
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 20211: __asm("SMT2CON0 equ 0DAAh");
+[; <" SMT2CON0 equ 0DAAh ;# ">
+"20276
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 20276: __asm("SMT2CON1 equ 0DABh");
+[; <" SMT2CON1 equ 0DABh ;# ">
+"20376
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 20376: __asm("SMT2STAT equ 0DACh");
+[; <" SMT2STAT equ 0DACh ;# ">
+"20466
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 20466: __asm("SMT2CLK equ 0DADh");
+[; <" SMT2CLK equ 0DADh ;# ">
+"20534
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 20534: __asm("SMT2SIG equ 0DAEh");
+[; <" SMT2SIG equ 0DAEh ;# ">
+"20626
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 20626: __asm("SMT2WIN equ 0DAFh");
+[; <" SMT2WIN equ 0DAFh ;# ">
+"20718
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 20718: __asm("PPSLOCK equ 0E0Fh");
+[; <" PPSLOCK equ 0E0Fh ;# ">
+"20738
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 20738: __asm("INTPPS equ 0E10h");
+[; <" INTPPS equ 0E10h ;# ">
+"20782
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 20782: __asm("T0CKIPPS equ 0E11h");
+[; <" T0CKIPPS equ 0E11h ;# ">
+"20826
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 20826: __asm("T1CKIPPS equ 0E12h");
+[; <" T1CKIPPS equ 0E12h ;# ">
+"20870
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 20870: __asm("T1GPPS equ 0E13h");
+[; <" T1GPPS equ 0E13h ;# ">
+"20914
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 20914: __asm("CCP1PPS equ 0E14h");
+[; <" CCP1PPS equ 0E14h ;# ">
+"20958
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 20958: __asm("CCP2PPS equ 0E15h");
+[; <" CCP2PPS equ 0E15h ;# ">
+"21002
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21002: __asm("ATINPPS equ 0E16h");
+[; <" ATINPPS equ 0E16h ;# ">
+"21046
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21046: __asm("CWGINPPS equ 0E17h");
+[; <" CWGINPPS equ 0E17h ;# ">
+"21090
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21090: __asm("T2PPS equ 0E18h");
+[; <" T2PPS equ 0E18h ;# ">
+"21134
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21134: __asm("T3CKIPPS equ 0E19h");
+[; <" T3CKIPPS equ 0E19h ;# ">
+"21178
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21178: __asm("T3GPPS equ 0E1Ah");
+[; <" T3GPPS equ 0E1Ah ;# ">
+"21222
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21222: __asm("T4PPS equ 0E1Bh");
+[; <" T4PPS equ 0E1Bh ;# ">
+"21266
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21266: __asm("T5CKIPPS equ 0E1Ch");
+[; <" T5CKIPPS equ 0E1Ch ;# ">
+"21310
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21310: __asm("T5GPPS equ 0E1Dh");
+[; <" T5GPPS equ 0E1Dh ;# ">
+"21354
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21354: __asm("T6PPS equ 0E1Eh");
+[; <" T6PPS equ 0E1Eh ;# ">
+"21398
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21398: __asm("ATCC1PPS equ 0E1Fh");
+[; <" ATCC1PPS equ 0E1Fh ;# ">
+"21442
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21442: __asm("SSPCLKPPS equ 0E20h");
+[; <" SSPCLKPPS equ 0E20h ;# ">
+"21486
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21486: __asm("SSPDATPPS equ 0E21h");
+[; <" SSPDATPPS equ 0E21h ;# ">
+"21530
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21530: __asm("SSPSSPPS equ 0E22h");
+[; <" SSPSSPPS equ 0E22h ;# ">
+"21574
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21574: __asm("ATCC2PPS equ 0E23h");
+[; <" ATCC2PPS equ 0E23h ;# ">
+"21618
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21618: __asm("RXPPS equ 0E24h");
+[; <" RXPPS equ 0E24h ;# ">
+"21662
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21662: __asm("CKPPS equ 0E25h");
+[; <" CKPPS equ 0E25h ;# ">
+"21706
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21706: __asm("SMT1SIGPPS equ 0E26h");
+[; <" SMT1SIGPPS equ 0E26h ;# ">
+"21750
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21750: __asm("SMT1WINPPS equ 0E27h");
+[; <" SMT1WINPPS equ 0E27h ;# ">
+"21794
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21794: __asm("CLCIN0PPS equ 0E28h");
+[; <" CLCIN0PPS equ 0E28h ;# ">
+"21838
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21838: __asm("CLCIN1PPS equ 0E29h");
+[; <" CLCIN1PPS equ 0E29h ;# ">
+"21882
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21882: __asm("CLCIN2PPS equ 0E2Ah");
+[; <" CLCIN2PPS equ 0E2Ah ;# ">
+"21926
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21926: __asm("CLCIN3PPS equ 0E2Bh");
+[; <" CLCIN3PPS equ 0E2Bh ;# ">
+"21970
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 21970: __asm("SMT2SIGPPS equ 0E2Ch");
+[; <" SMT2SIGPPS equ 0E2Ch ;# ">
+"22014
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 22014: __asm("SMT2WINPPS equ 0E2Dh");
+[; <" SMT2WINPPS equ 0E2Dh ;# ">
+"22058
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 22058: __asm("ATCC3PPS equ 0E2Eh");
+[; <" ATCC3PPS equ 0E2Eh ;# ">
+"22102
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 22102: __asm("RA0PPS equ 0E90h");
+[; <" RA0PPS equ 0E90h ;# ">
+"22146
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 22146: __asm("RA1PPS equ 0E91h");
+[; <" RA1PPS equ 0E91h ;# ">
+"22190
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 22190: __asm("RA2PPS equ 0E92h");
+[; <" RA2PPS equ 0E92h ;# ">
+"22234
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 22234: __asm("RA4PPS equ 0E94h");
+[; <" RA4PPS equ 0E94h ;# ">
+"22278
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 22278: __asm("RA5PPS equ 0E95h");
+[; <" RA5PPS equ 0E95h ;# ">
+"22322
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 22322: __asm("RC0PPS equ 0EA0h");
+[; <" RC0PPS equ 0EA0h ;# ">
+"22366
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 22366: __asm("RC1PPS equ 0EA1h");
+[; <" RC1PPS equ 0EA1h ;# ">
+"22410
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 22410: __asm("RC2PPS equ 0EA2h");
+[; <" RC2PPS equ 0EA2h ;# ">
+"22454
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 22454: __asm("RC3PPS equ 0EA3h");
+[; <" RC3PPS equ 0EA3h ;# ">
+"22498
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 22498: __asm("RC4PPS equ 0EA4h");
+[; <" RC4PPS equ 0EA4h ;# ">
+"22542
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 22542: __asm("RC5PPS equ 0EA5h");
+[; <" RC5PPS equ 0EA5h ;# ">
+"22586
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 22586: __asm("CLCDATA equ 0F0Fh");
+[; <" CLCDATA equ 0F0Fh ;# ">
+"22624
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 22624: __asm("CLC1CON equ 0F10h");
+[; <" CLC1CON equ 0F10h ;# ">
+"22742
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 22742: __asm("CLC1POL equ 0F11h");
+[; <" CLC1POL equ 0F11h ;# ">
+"22820
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 22820: __asm("CLC1SEL0 equ 0F12h");
+[; <" CLC1SEL0 equ 0F12h ;# ">
+"22924
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 22924: __asm("CLC1SEL1 equ 0F13h");
+[; <" CLC1SEL1 equ 0F13h ;# ">
+"23028
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 23028: __asm("CLC1SEL2 equ 0F14h");
+[; <" CLC1SEL2 equ 0F14h ;# ">
+"23132
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 23132: __asm("CLC1SEL3 equ 0F15h");
+[; <" CLC1SEL3 equ 0F15h ;# ">
+"23236
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 23236: __asm("CLC1GLS0 equ 0F16h");
+[; <" CLC1GLS0 equ 0F16h ;# ">
+"23348
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 23348: __asm("CLC1GLS1 equ 0F17h");
+[; <" CLC1GLS1 equ 0F17h ;# ">
+"23460
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 23460: __asm("CLC1GLS2 equ 0F18h");
+[; <" CLC1GLS2 equ 0F18h ;# ">
+"23572
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 23572: __asm("CLC1GLS3 equ 0F19h");
+[; <" CLC1GLS3 equ 0F19h ;# ">
+"23684
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 23684: __asm("CLC2CON equ 0F1Ah");
+[; <" CLC2CON equ 0F1Ah ;# ">
+"23802
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 23802: __asm("CLC2POL equ 0F1Bh");
+[; <" CLC2POL equ 0F1Bh ;# ">
+"23880
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 23880: __asm("CLC2SEL0 equ 0F1Ch");
+[; <" CLC2SEL0 equ 0F1Ch ;# ">
+"23984
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 23984: __asm("CLC2SEL1 equ 0F1Dh");
+[; <" CLC2SEL1 equ 0F1Dh ;# ">
+"24088
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 24088: __asm("CLC2SEL2 equ 0F1Eh");
+[; <" CLC2SEL2 equ 0F1Eh ;# ">
+"24192
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 24192: __asm("CLC2SEL3 equ 0F1Fh");
+[; <" CLC2SEL3 equ 0F1Fh ;# ">
+"24296
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 24296: __asm("CLC2GLS0 equ 0F20h");
+[; <" CLC2GLS0 equ 0F20h ;# ">
+"24408
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 24408: __asm("CLC2GLS1 equ 0F21h");
+[; <" CLC2GLS1 equ 0F21h ;# ">
+"24520
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 24520: __asm("CLC2GLS2 equ 0F22h");
+[; <" CLC2GLS2 equ 0F22h ;# ">
+"24632
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 24632: __asm("CLC2GLS3 equ 0F23h");
+[; <" CLC2GLS3 equ 0F23h ;# ">
+"24744
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 24744: __asm("CLC3CON equ 0F24h");
+[; <" CLC3CON equ 0F24h ;# ">
+"24862
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 24862: __asm("CLC3POL equ 0F25h");
+[; <" CLC3POL equ 0F25h ;# ">
+"24940
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 24940: __asm("CLC3SEL0 equ 0F26h");
+[; <" CLC3SEL0 equ 0F26h ;# ">
+"25044
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 25044: __asm("CLC3SEL1 equ 0F27h");
+[; <" CLC3SEL1 equ 0F27h ;# ">
+"25148
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 25148: __asm("CLC3SEL2 equ 0F28h");
+[; <" CLC3SEL2 equ 0F28h ;# ">
+"25252
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 25252: __asm("CLC3SEL3 equ 0F29h");
+[; <" CLC3SEL3 equ 0F29h ;# ">
+"25356
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 25356: __asm("CLC3GLS0 equ 0F2Ah");
+[; <" CLC3GLS0 equ 0F2Ah ;# ">
+"25468
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 25468: __asm("CLC3GLS1 equ 0F2Bh");
+[; <" CLC3GLS1 equ 0F2Bh ;# ">
+"25580
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 25580: __asm("CLC3GLS2 equ 0F2Ch");
+[; <" CLC3GLS2 equ 0F2Ch ;# ">
+"25692
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 25692: __asm("CLC3GLS3 equ 0F2Dh");
+[; <" CLC3GLS3 equ 0F2Dh ;# ">
+"25804
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 25804: __asm("CLC4CON equ 0F2Eh");
+[; <" CLC4CON equ 0F2Eh ;# ">
+"25922
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 25922: __asm("CLC4POL equ 0F2Fh");
+[; <" CLC4POL equ 0F2Fh ;# ">
+"26000
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 26000: __asm("CLC4SEL0 equ 0F30h");
+[; <" CLC4SEL0 equ 0F30h ;# ">
+"26104
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 26104: __asm("CLC4SEL1 equ 0F31h");
+[; <" CLC4SEL1 equ 0F31h ;# ">
+"26208
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 26208: __asm("CLC4SEL2 equ 0F32h");
+[; <" CLC4SEL2 equ 0F32h ;# ">
+"26312
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 26312: __asm("CLC4SEL3 equ 0F33h");
+[; <" CLC4SEL3 equ 0F33h ;# ">
+"26416
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 26416: __asm("CLC4GLS0 equ 0F34h");
+[; <" CLC4GLS0 equ 0F34h ;# ">
+"26528
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 26528: __asm("CLC4GLS1 equ 0F35h");
+[; <" CLC4GLS1 equ 0F35h ;# ">
+"26640
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 26640: __asm("CLC4GLS2 equ 0F36h");
+[; <" CLC4GLS2 equ 0F36h ;# ">
+"26752
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 26752: __asm("CLC4GLS3 equ 0F37h");
+[; <" CLC4GLS3 equ 0F37h ;# ">
+"26864
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 26864: __asm("STATUS_SHAD equ 0FE4h");
+[; <" STATUS_SHAD equ 0FE4h ;# ">
+"26896
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 26896: __asm("WREG_SHAD equ 0FE5h");
+[; <" WREG_SHAD equ 0FE5h ;# ">
+"26916
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 26916: __asm("BSR_SHAD equ 0FE6h");
+[; <" BSR_SHAD equ 0FE6h ;# ">
+"26936
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 26936: __asm("PCLATH_SHAD equ 0FE7h");
+[; <" PCLATH_SHAD equ 0FE7h ;# ">
+"26956
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 26956: __asm("FSR0L_SHAD equ 0FE8h");
+[; <" FSR0L_SHAD equ 0FE8h ;# ">
+"26976
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 26976: __asm("FSR0H_SHAD equ 0FE9h");
+[; <" FSR0H_SHAD equ 0FE9h ;# ">
+"26996
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 26996: __asm("FSR1L_SHAD equ 0FEAh");
+[; <" FSR1L_SHAD equ 0FEAh ;# ">
+"27016
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 27016: __asm("FSR1H_SHAD equ 0FEBh");
+[; <" FSR1H_SHAD equ 0FEBh ;# ">
+"27036
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 27036: __asm("STKPTR equ 0FEDh");
+[; <" STKPTR equ 0FEDh ;# ">
+"27056
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 27056: __asm("TOSL equ 0FEEh");
+[; <" TOSL equ 0FEEh ;# ">
+"27076
+[; ;C:\Program Files (x86)\MPLAB X\Compilers\XC8\pic\include\proc\pic16f1615.h: 27076: __asm("TOSH equ 0FEFh");
+[; <" TOSH equ 0FEFh ;# ">
+"62 ./RFM69HCW.h
+[; ;./RFM69HCW.h: 62: byte SYNC_WORDS[8] = {0x67,0x67,0x67,0x67,0x67,0x67,0x67,0x67};
+[v _SYNC_WORDS `uc ~T0 @X0 -> 8 `i e ]
+[i _SYNC_WORDS
+:U ..
+-> -> 103 `i `uc
+-> -> 103 `i `uc
+-> -> 103 `i `uc
+-> -> 103 `i `uc
+-> -> 103 `i `uc
+-> -> 103 `i `uc
+-> -> 103 `i `uc
+-> -> 103 `i `uc
+..
+]
+"56 transmitter.c
+[; ;transmitter.c: 56: byte rssiThresh = 0;
+[v _rssiThresh `uc ~T0 @X0 1 e ]
+[i _rssiThresh
+-> -> 0 `i `uc
+]
+"57
+[; ;transmitter.c: 57: byte rssi = 0;
+[v _rssi `uc ~T0 @X0 1 e ]
+[i _rssi
+-> -> 0 `i `uc
+]
+"58
+[; ;transmitter.c: 58: byte fifoFlags = 0;
+[v _fifoFlags `uc ~T0 @X0 1 e ]
+[i _fifoFlags
+-> -> 0 `i `uc
+]
+"59
+[; ;transmitter.c: 59: byte modeFlags = 0;
+[v _modeFlags `uc ~T0 @X0 1 e ]
+[i _modeFlags
+-> -> 0 `i `uc
+]
+"60
+[; ;transmitter.c: 60: byte powerSettings = 0;
+[v _powerSettings `uc ~T0 @X0 1 e ]
+[i _powerSettings
+-> -> 0 `i `uc
+]
+"61
+[; ;transmitter.c: 61: byte operatingMode = 0;
+[v _operatingMode `uc ~T0 @X0 1 e ]
+[i _operatingMode
+-> -> 0 `i `uc
+]
+"62
+[; ;transmitter.c: 62: float thermistorTemp;
+[v _thermistorTemp `f ~T0 @X0 1 e ]
+"64
+[; ;transmitter.c: 64: void TRIS_ANS_Setup() {
+[v _TRIS_ANS_Setup `(v ~T0 @X0 1 ef ]
+{
+[e :U _TRIS_ANS_Setup ]
+[f ]
+"65
+[; ;transmitter.c: 65:     ANSELA = 0;
+[e = _ANSELA -> -> 0 `i `uc ]
+"66
+[; ;transmitter.c: 66:     ANSELC = 0;
+[e = _ANSELC -> -> 0 `i `uc ]
+"67
+[; ;transmitter.c: 67:     TRISC0 = 0;
+[e = _TRISC0 -> -> 0 `i `b ]
+"68
+[; ;transmitter.c: 68:     TRISC1 = 1;
+[e = _TRISC1 -> -> 1 `i `b ]
+"69
+[; ;transmitter.c: 69:     TRISC2 = 0;
+[e = _TRISC2 -> -> 0 `i `b ]
+"70
+[; ;transmitter.c: 70:     TRISC3 = 0;
+[e = _TRISC3 -> -> 0 `i `b ]
+"71
+[; ;transmitter.c: 71:     TRISC5 = 0;
+[e = _TRISC5 -> -> 0 `i `b ]
+"72
+[; ;transmitter.c: 72:     TRISA5 = 1;
+[e = _TRISA5 -> -> 1 `i `b ]
+"73
+[; ;transmitter.c: 73:     TRISA2 = 0;
+[e = _TRISA2 -> -> 0 `i `b ]
+"74
+[; ;transmitter.c: 74:     TRISA4 = 1;
+[e = _TRISA4 -> -> 1 `i `b ]
+"75
+[; ;transmitter.c: 75:     ANSA4 = 1;
+[e = _ANSA4 -> -> 1 `i `b ]
+"76
+[; ;transmitter.c: 76: }
+[e :UE 1181 ]
+}
+"78
+[; ;transmitter.c: 78: void analogSetup() {
+[v _analogSetup `(v ~T0 @X0 1 ef ]
+{
+[e :U _analogSetup ]
+[f ]
+"80
+[; ;transmitter.c: 80:     ADFM = 0;
+[e = _ADFM -> -> 0 `i `b ]
+"81
+[; ;transmitter.c: 81:     WPUA4 = 0;
+[e = _WPUA4 -> -> 0 `i `b ]
+"82
+[; ;transmitter.c: 82: }
+[e :UE 1182 ]
+}
+"84
+[; ;transmitter.c: 84: void resetRadio() {
+[v _resetRadio `(v ~T0 @X0 1 ef ]
+{
+[e :U _resetRadio ]
+[f ]
+"85
+[; ;transmitter.c: 85:     PORTCbits.RC2 = 1;
+[e = . . _PORTCbits 0 2 -> -> 1 `i `uc ]
+"86
+[; ;transmitter.c: 86:     _delay((unsigned long)((1)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"87
+[; ;transmitter.c: 87:     PORTCbits.RC2 = 0;
+[e = . . _PORTCbits 0 2 -> -> 0 `i `uc ]
+"88
+[; ;transmitter.c: 88:     _delay((unsigned long)((20)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"89
+[; ;transmitter.c: 89: }
+[e :UE 1183 ]
+}
+"91
+[; ;transmitter.c: 91: int init() {
+[v _init `(i ~T0 @X0 1 ef ]
+{
+[e :U _init ]
+[f ]
+"92
+[; ;transmitter.c: 92:     TRIS_ANS_Setup();
+[e ( _TRIS_ANS_Setup ..  ]
+"93
+[; ;transmitter.c: 93:     analogSetup();
+[e ( _analogSetup ..  ]
+"94
+[; ;transmitter.c: 94:     rfmSetup();
+[e ( _rfmSetup ..  ]
+"95
+[; ;transmitter.c: 95:     return 0;
+[e ) -> 0 `i ]
+[e $UE 1184  ]
+"96
+[; ;transmitter.c: 96: }
+[e :UE 1184 ]
+}
+"98
+[; ;transmitter.c: 98: void rfmSetup() {
+[v _rfmSetup `(v ~T0 @X0 1 ef ]
+{
+[e :U _rfmSetup ]
+[f ]
+"99
+[; ;transmitter.c: 99:     SSP1BUF;
+[e _SSP1BUF ]
+"100
+[; ;transmitter.c: 100:     SSP1STATbits.BF = 0;
+[e = . . _SSP1STATbits 0 0 -> -> 0 `i `uc ]
+"101
+[; ;transmitter.c: 101:     spi_init_master();
+[e ( _spi_init_master ..  ]
+"102
+[; ;transmitter.c: 102:     resetRadio();
+[e ( _resetRadio ..  ]
+"103
+[; ;transmitter.c: 103:     _delay((unsigned long)((20)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"104
+[; ;transmitter.c: 104: }
+[e :UE 1185 ]
+}
+"106
+[; ;transmitter.c: 106: float thermistor_temp() {
+[v _thermistor_temp `(f ~T0 @X0 1 ef ]
+{
+[e :U _thermistor_temp ]
+[f ]
+"107
+[; ;transmitter.c: 107:     ADCON0bits.CHS = 0b00011;
+[e = . . _ADCON0bits 0 2 -> -> 3 `i `uc ]
+"108
+[; ;transmitter.c: 108:     ADON = 1;
+[e = _ADON -> -> 1 `i `b ]
+"109
+[; ;transmitter.c: 109:     PORTCbits.RC5 = 1;
+[e = . . _PORTCbits 0 5 -> -> 1 `i `uc ]
+"110
+[; ;transmitter.c: 110:     GO = 1;
+[e = _GO -> -> 1 `i `b ]
+"111
+[; ;transmitter.c: 111:     while (GO);
+[e $U 1187  ]
+[e :U 1188 ]
+[e :U 1187 ]
+[e $ _GO 1188  ]
+[e :U 1189 ]
+"112
+[; ;transmitter.c: 112:     PORTCbits.RC5 = 0;
+[e = . . _PORTCbits 0 5 -> -> 0 `i `uc ]
+"113
+[; ;transmitter.c: 113:     ADON = 0;
+[e = _ADON -> -> 0 `i `b ]
+"114
+[; ;transmitter.c: 114:     float resistance = 10000.0 / ((255.0 / ADRESH) - 1);
+[v _resistance `f ~T0 @X0 1 a ]
+[e = _resistance -> / .10000.0 - / .255.0 -> -> _ADRESH `i `d -> -> 1 `i `d `f ]
+"115
+[; ;transmitter.c: 115:     float temperature = resistance / 10000.0;
+[v _temperature `f ~T0 @X0 1 a ]
+[e = _temperature -> / -> _resistance `d .10000.0 `f ]
+"116
+[; ;transmitter.c: 116:     temperature = logf(temperature);
+[e = _temperature ( _logf (1 _temperature ]
+"117
+[; ;transmitter.c: 117:     temperature /= 3950.0;
+[e =/ _temperature .3950.0 ]
+"118
+[; ;transmitter.c: 118:     temperature += 1.0 / (25.0 + 273.15);
+[e =+ _temperature -> / .1.0 + .25.0 .273.15 `f ]
+"119
+[; ;transmitter.c: 119:     temperature = 1.0 / temperature;
+[e = _temperature -> / .1.0 -> _temperature `d `f ]
+"120
+[; ;transmitter.c: 120:     temperature -= 273.15;
+[e =- _temperature -> .273.15 `f ]
+"121
+[; ;transmitter.c: 121:     return temperature;
+[e ) _temperature ]
+[e $UE 1186  ]
+"122
+[; ;transmitter.c: 122: }
+[e :UE 1186 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"124
+[; ;transmitter.c: 124: int main() {
+[v _main `(i ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"125
+[; ;transmitter.c: 125:     init();
+[e ( _init ..  ]
+[v F9844 `S1180 ~T0 @X0 1 s ]
+[i F9844
+:U ..
+:U ..
+:U ..
+"126
+[; ;transmitter.c: 126:     RFM69 radio = {.SSport = &PORTA, .SSbit = 2, .node_address = 0x30, .packet_length = 4,
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+-> &U _PORTA `*uc
+-> -> 2 `i `uc
+-> -> 4 `i `uc
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+-> -> 48 `i `uc
+-> -> 228 `i `uc
+:U ..
+-> -> 103 `i `uc
+-> -> 103 `i `uc
+-> -> 103 `i `uc
+-> -> 103 `i `uc
+-> -> 103 `i `uc
+-> -> 103 `i `uc
+-> -> 103 `i `uc
+-> -> 103 `i `uc
+..
+..
+..
+]
+[v _radio `S1180 ~T0 @X0 1 a ]
+[e = _radio F9844 ]
+"129
+[; ;transmitter.c: 129:     initRadio(&radio);
+[e ( _initRadio (1 &U _radio ]
+"130
+[; ;transmitter.c: 130:     byte *payload = &thermistorTemp;
+[v _payload `*uc ~T0 @X0 1 a ]
+[e = _payload -> &U _thermistorTemp `*uc ]
+"131
+[; ;transmitter.c: 131:     setPowerOutput(&radio, 0x9F);
+[e ( _setPowerOutput (2 , &U _radio -> -> 159 `i `uc ]
+"132
+[; ;transmitter.c: 132:     setModulationThreshold(&radio);
+[e ( _setModulationThreshold (1 &U _radio ]
+"133
+[; ;transmitter.c: 133:     setOperatingMode(&radio, 0xA0);
+[e ( _setOperatingMode (2 , &U _radio -> -> 160 `i `uc ]
+"134
+[; ;transmitter.c: 134:     setAutoMode(&radio, 0b01011011);
+[e ( _setAutoMode (2 , &U _radio -> -> 91 `i `uc ]
+"135
+[; ;transmitter.c: 135:     while (1) {
+[e :U 1192 ]
+{
+"136
+[; ;transmitter.c: 136:         thermistorTemp = thermistor_temp();
+[e = _thermistorTemp ( _thermistor_temp ..  ]
+"137
+[; ;transmitter.c: 137:         fifoFlags = getFifoFlags(&radio);
+[e = _fifoFlags ( _getFifoFlags (1 &U _radio ]
+"138
+[; ;transmitter.c: 138:         modeFlags = getModeFlags(&radio);
+[e = _modeFlags ( _getModeFlags (1 &U _radio ]
+"139
+[; ;transmitter.c: 139:         if (PORTAbits.RA5) {
+[e $ ! != -> . . _PORTAbits 0 5 `i -> 0 `i 1194  ]
+{
+"140
+[; ;transmitter.c: 140:             sendPayload(&radio, payload);
+[e ( _sendPayload (2 , &U _radio _payload ]
+"141
+[; ;transmitter.c: 141:         }
+}
+[e :U 1194 ]
+"142
+[; ;transmitter.c: 142:         fifoFlags = getFifoFlags(&radio);
+[e = _fifoFlags ( _getFifoFlags (1 &U _radio ]
+"143
+[; ;transmitter.c: 143:         modeFlags = getModeFlags(&radio);
+[e = _modeFlags ( _getModeFlags (1 &U _radio ]
+"144
+[; ;transmitter.c: 144:         _delay((unsigned long)((10)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"145
+[; ;transmitter.c: 145:         operatingMode = getOperatingMode(&radio);
+[e = _operatingMode ( _getOperatingMode (1 &U _radio ]
+"146
+[; ;transmitter.c: 146:         payload[4 - 1]++;
+[e ++ *U + _payload * -> - -> 4 `i -> 1 `i `x -> -> # *U _payload `i `x -> -> 1 `i `uc ]
+"147
+[; ;transmitter.c: 147:     }
+}
+[e :U 1191 ]
+[e $U 1192  ]
+[e :U 1193 ]
+"148
+[; ;transmitter.c: 148:     return 0;
+[e ) -> 0 `i ]
+[e $UE 1190  ]
+"149
+[; ;transmitter.c: 149: }
+[e :UE 1190 ]
+}
+"151
+[; ;transmitter.c: 151: void spi_init_master() {
+[v _spi_init_master `(v ~T0 @X0 1 ef ]
+{
+[e :U _spi_init_master ]
+[f ]
+"152
+[; ;transmitter.c: 152:     SSP1CON1bits.SSPM = 0b0001;
+[e = . . _SSP1CON1bits 0 0 -> -> 1 `i `uc ]
+"153
+[; ;transmitter.c: 153:     SSP1CONbits.SSPEN = 1;
+[e = . . _SSP1CONbits 0 2 -> -> 1 `i `uc ]
+"154
+[; ;transmitter.c: 154:     SSP1CONbits.CKP = 0;
+[e = . . _SSP1CONbits 0 1 -> -> 0 `i `uc ]
+"155
+[; ;transmitter.c: 155:     SSP1STATbits.CKE = 1;
+[e = . . _SSP1STATbits 0 6 -> -> 1 `i `uc ]
+"156
+[; ;transmitter.c: 156:     SSP1STATbits.SMP = 0;
+[e = . . _SSP1STATbits 0 7 -> -> 0 `i `uc ]
+"158
+[; ;transmitter.c: 158:     RC0PPS = 0b10000;
+[e = _RC0PPS -> -> 16 `i `uc ]
+"160
+[; ;transmitter.c: 160:     SSPDATPPS = 0b10001;
+[e = _SSPDATPPS -> -> 17 `i `uc ]
+"162
+[; ;transmitter.c: 162:     RC3PPS = 0b10001;
+[e = _RC3PPS -> -> 17 `i `uc ]
+"163
+[; ;transmitter.c: 163: }
+[e :UE 1195 ]
+}

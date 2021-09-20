@@ -98,6 +98,8 @@
 <text x="-2" y="1.75" size="0.75" layer="25">&gt;NAME</text>
 <text x="-2.05" y="-2.55" size="0.75" layer="27">&gt;VALUE</text>
 <smd name="11@0" x="0" y="0.00635" dx="2.4" dy="1.65" layer="1" rot="R90"/>
+<pad name="11@5" x="0" y="0.508" drill="0.2"/>
+<pad name="11@6" x="0" y="-0.508" drill="0.2"/>
 </package>
 </packages>
 <symbols>
@@ -129,7 +131,7 @@
 <connects>
 <connect gate="G$1" pin="EN" pad="6"/>
 <connect gate="G$1" pin="FB" pad="10"/>
-<connect gate="G$1" pin="GND" pad="3 9 11@0 11@1 11@2 11@3 11@4"/>
+<connect gate="G$1" pin="GND" pad="3 9 11@0 11@1 11@2 11@3 11@4 11@5 11@6"/>
 <connect gate="G$1" pin="L1" pad="4"/>
 <connect gate="G$1" pin="L2" pad="2" route="any"/>
 <connect gate="G$1" pin="PS/SYNC" pad="7"/>

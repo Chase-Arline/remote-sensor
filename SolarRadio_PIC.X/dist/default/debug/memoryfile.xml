@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
-  <executable name="dist/default/debug\SolarRadio.X.debug.hex">
+  <executable name="dist/default/debug\SolarRadio_PIC.X.debug.hex">
     <memory name="program">
       <units>words</units>
       <length>8192</length>
-      <used>1145</used>
-      <free>7047</free>
+      <used>1490</used>
+      <free>6702</free>
     </memory>
     <memory name="data">
       <units>bytes</units>
       <length>1024</length>
-      <used>249</used>
-      <free>775</free>
+      <used>259</used>
+      <free>765</free>
     </memory>
   </executable>
 </project>

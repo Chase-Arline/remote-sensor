@@ -17514,13 +17514,13 @@ Li-Polymer Charge Management Controllers</description>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U$3" library="RFM69C" deviceset="RFM69HCW" device=""/>
-<part name="DIO2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
-<part name="DIO1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
-<part name="DIO0" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
-<part name="DIO4" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
-<part name="DIO3" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
+<part name="DIO2_P" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
+<part name="DIO1_P" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
+<part name="DIO0_P" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
+<part name="DIO4_P" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
+<part name="DIO3_P" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
 <part name="ANT" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
-<part name="DIO5" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
+<part name="DIO5_P" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="GND" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
 <part name="GND7" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
@@ -17542,6 +17542,24 @@ Li-Polymer Charge Management Controllers</description>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E5-5" package3d_urn="urn:adsk.eagle:package:23367/2" value="100uF"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E5-6" package3d_urn="urn:adsk.eagle:package:23368/1" value="100uF"/>
+<part name="KIT3_4" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
+<part name="KIT3_1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
+<part name="KIT3_5" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
+<part name="KIT3_3" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
+<part name="KIT3_2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" package3d_urn="urn:adsk.eagle:package:30830/1"/>
+<part name="DIO5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="DIO4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="DIO3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="DIO0" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="DIO2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="DIO2_RES" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="DIO0_RES" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="DIO3_RES" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="DIO4_RES" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="DIO5_RES" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="DIO1_RES" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="DIO1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17633,23 +17651,23 @@ Li-Polymer Charge Management Controllers</description>
 <attribute name="VALUE" x="173.355" y="-26.035" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="U$3" gate="G$1" x="124.46" y="-15.24" smashed="yes"/>
-<instance part="DIO2" gate="P" x="142.24" y="-10.16" smashed="yes" rot="R180">
+<instance part="DIO2_P" gate="P" x="142.24" y="-10.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="143.383" y="-12.0142" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="143.383" y="-6.858" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="DIO1" gate="P" x="142.24" y="-15.24" smashed="yes" rot="R180">
+<instance part="DIO1_P" gate="P" x="142.24" y="-15.24" smashed="yes" rot="R180">
 <attribute name="NAME" x="143.383" y="-17.0942" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="143.383" y="-11.938" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="DIO0" gate="P" x="142.24" y="-20.32" smashed="yes" rot="R180">
+<instance part="DIO0_P" gate="P" x="142.24" y="-20.32" smashed="yes" rot="R180">
 <attribute name="NAME" x="143.383" y="-22.1742" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="143.383" y="-17.018" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="DIO4" gate="P" x="142.24" y="-30.48" smashed="yes" rot="R180">
+<instance part="DIO4_P" gate="P" x="142.24" y="-30.48" smashed="yes" rot="R180">
 <attribute name="NAME" x="143.383" y="-32.3342" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="143.383" y="-27.178" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="DIO3" gate="P" x="142.24" y="-35.56" smashed="yes" rot="R180">
+<instance part="DIO3_P" gate="P" x="142.24" y="-35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="143.383" y="-37.4142" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="143.383" y="-32.258" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -17657,7 +17675,7 @@ Li-Polymer Charge Management Controllers</description>
 <attribute name="NAME" x="143.383" y="-42.4942" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="143.383" y="-37.338" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="DIO5" gate="P" x="109.22" y="-43.18" smashed="yes" rot="R90">
+<instance part="DIO5_P" gate="P" x="109.22" y="-43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="107.3658" y="-44.323" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="112.522" y="-44.323" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -17739,6 +17757,77 @@ Li-Polymer Charge Management Controllers</description>
 <instance part="C5" gate="G$1" x="43.18" y="76.2" smashed="yes">
 <attribute name="NAME" x="44.196" y="76.835" size="1.778" layer="95"/>
 <attribute name="VALUE" x="44.196" y="72.009" size="1.778" layer="96"/>
+</instance>
+<instance part="KIT3_4" gate="P" x="180.34" y="22.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="178.4858" y="21.717" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="183.642" y="21.717" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="KIT3_1" gate="P" x="78.74" y="-5.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="76.8858" y="-6.223" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="82.042" y="-6.223" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="KIT3_5" gate="P" x="172.72" y="17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="170.8658" y="16.637" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="176.022" y="16.637" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="KIT3_3" gate="P" x="167.64" y="-22.86" smashed="yes" rot="R270">
+<attribute name="NAME" x="169.4942" y="-21.717" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="164.338" y="-21.717" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="KIT3_2" gate="P" x="162.56" y="-10.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="161.163" y="-6.9342" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="163.703" y="-6.858" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="DIO5" gate="G$1" x="111.76" y="-76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="110.2614" y="-80.01" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="115.062" y="-80.01" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="DIO4" gate="G$1" x="139.7" y="-73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="138.2014" y="-74.93" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="143.002" y="-77.47" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="DIO3" gate="G$1" x="147.32" y="-73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="145.8214" y="-77.47" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="150.622" y="-77.47" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="DIO0" gate="G$1" x="172.72" y="-73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="171.2214" y="-77.47" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="176.022" y="-77.47" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="DIO2" gate="G$1" x="154.94" y="-73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="153.4414" y="-77.47" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="158.242" y="-77.47" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="DIO2_RES" gate="G$1" x="154.94" y="-63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="153.4414" y="-67.31" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="158.242" y="-67.31" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="DIO0_RES" gate="G$1" x="172.72" y="-63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="171.2214" y="-67.31" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="176.022" y="-67.31" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="DIO3_RES" gate="G$1" x="147.32" y="-63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="145.8214" y="-67.31" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="150.622" y="-67.31" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="DIO4_RES" gate="G$1" x="139.7" y="-63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="138.2014" y="-67.31" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="143.002" y="-67.31" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="DIO5_RES" gate="G$1" x="111.76" y="-66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="110.2614" y="-69.85" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="115.062" y="-69.85" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="DIO1_RES" gate="G$1" x="162.56" y="-63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="161.0614" y="-67.31" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="165.862" y="-67.31" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="DIO1" gate="G$1" x="162.56" y="-73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="161.0614" y="-77.47" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="165.862" y="-77.47" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY5" gate="GND" x="127" y="-83.82" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="126.365" y="-86.995" size="1.778" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -17833,6 +17922,30 @@ Li-Polymer Charge Management Controllers</description>
 <segment>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 <pinref part="C3" gate="G$1" pin="-"/>
+<pinref part="KIT3_3" gate="P" pin="P"/>
+<junction x="167.64" y="-25.4"/>
+<pinref part="KIT3_3" gate="P" pin="P"/>
+</segment>
+<segment>
+<pinref part="DIO5" gate="G$1" pin="1"/>
+<pinref part="SUPPLY5" gate="GND" pin="GND"/>
+<wire x1="111.76" y1="-81.28" x2="127" y2="-81.28" width="0.1524" layer="91"/>
+<pinref part="DIO4" gate="G$1" pin="1"/>
+<wire x1="127" y1="-81.28" x2="139.7" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="-81.28" x2="139.7" y2="-78.74" width="0.1524" layer="91"/>
+<junction x="127" y="-81.28"/>
+<pinref part="DIO3" gate="G$1" pin="1"/>
+<wire x1="139.7" y1="-78.74" x2="147.32" y2="-78.74" width="0.1524" layer="91"/>
+<junction x="139.7" y="-78.74"/>
+<pinref part="DIO2" gate="G$1" pin="1"/>
+<wire x1="147.32" y1="-78.74" x2="154.94" y2="-78.74" width="0.1524" layer="91"/>
+<junction x="147.32" y="-78.74"/>
+<pinref part="DIO1" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="-78.74" x2="162.56" y2="-78.74" width="0.1524" layer="91"/>
+<junction x="154.94" y="-78.74"/>
+<pinref part="DIO0" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="-78.74" x2="172.72" y2="-78.74" width="0.1524" layer="91"/>
+<junction x="162.56" y="-78.74"/>
 </segment>
 </net>
 <net name="VIN-5V" class="0">
@@ -17912,11 +18025,14 @@ Li-Polymer Charge Management Controllers</description>
 <junction x="96.52" y="33.02"/>
 <pinref part="U$3" gate="G$1" pin="3.3V"/>
 <wire x1="160.02" y1="-25.4" x2="139.7" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="43.18" x2="160.02" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="43.18" x2="160.02" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="VCC" gate="P" pin="P"/>
 <junction x="101.6" y="43.18"/>
 <pinref part="C3" gate="G$1" pin="+"/>
 <junction x="160.02" y="-25.4"/>
+<pinref part="KIT3_2" gate="P" pin="P"/>
+<wire x1="160.02" y1="-10.16" x2="160.02" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="160.02" y="-10.16"/>
 </segment>
 </net>
 <net name="SS" class="0">
@@ -17957,18 +18073,32 @@ Li-Polymer Charge Management Controllers</description>
 <segment>
 <pinref part="U$1" gate="G$1" pin="RA1/ICSPCLK"/>
 <pinref part="ICSPCLK" gate="P" pin="P"/>
+<wire x1="149.86" y1="22.86" x2="172.72" y2="22.86" width="0.1524" layer="91"/>
+<junction x="149.86" y="22.86"/>
+<pinref part="KIT3_5" gate="P" pin="P"/>
+<wire x1="172.72" y1="22.86" x2="172.72" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="RA0/ICSPDAT"/>
 <pinref part="ICSPDAT" gate="P" pin="P"/>
+<wire x1="149.86" y1="27.94" x2="180.34" y2="27.94" width="0.1524" layer="91"/>
+<junction x="149.86" y="27.94"/>
+<pinref part="KIT3_4" gate="P" pin="P"/>
+<wire x1="180.34" y1="27.94" x2="180.34" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="MCLR/VPP/RA3"/>
 <pinref part="MCLR" gate="P" pin="P"/>
+<wire x1="109.22" y1="17.78" x2="99.06" y2="17.78" width="0.1524" layer="91"/>
+<junction x="109.22" y="17.78"/>
+<wire x1="99.06" y1="17.78" x2="99.06" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="KIT3_1" gate="P" pin="P"/>
+<wire x1="99.06" y1="2.54" x2="78.74" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="2.54" x2="78.74" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -18018,31 +18148,46 @@ Li-Polymer Charge Management Controllers</description>
 <net name="N$9" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="DIO2"/>
-<pinref part="DIO2" gate="P" pin="P"/>
+<pinref part="DIO2_P" gate="P" pin="P"/>
+<wire x1="139.7" y1="-10.16" x2="152.4" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="139.7" y="-10.16"/>
+<pinref part="DIO2_RES" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="-10.16" x2="152.4" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="-58.42" x2="154.94" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="DIO1"/>
-<pinref part="DIO1" gate="P" pin="P"/>
+<pinref part="DIO1_P" gate="P" pin="P"/>
+<wire x1="139.7" y1="-15.24" x2="127" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="127" y1="-15.24" x2="127" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="127" y1="-50.8" x2="162.56" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="139.7" y="-15.24"/>
+<pinref part="DIO1_RES" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="-50.8" x2="162.56" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="DIO0"/>
-<pinref part="DIO0" gate="P" pin="P"/>
+<pinref part="DIO0_P" gate="P" pin="P"/>
+<wire x1="180.34" y1="-20.32" x2="180.34" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="-58.42" x2="172.72" y2="-58.42" width="0.1524" layer="91"/>
+<pinref part="DIO0_RES" gate="G$1" pin="2"/>
+<wire x1="139.7" y1="-20.32" x2="180.34" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="139.7" y="-20.32"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="DIO4"/>
-<pinref part="DIO4" gate="P" pin="P"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="DIO3"/>
-<pinref part="DIO3" gate="P" pin="P"/>
+<pinref part="DIO4_P" gate="P" pin="P"/>
+<wire x1="139.7" y1="-30.48" x2="132.08" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="139.7" y="-30.48"/>
+<pinref part="DIO4_RES" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="-58.42" x2="139.7" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-30.48" x2="132.08" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -18054,7 +18199,11 @@ Li-Polymer Charge Management Controllers</description>
 <net name="N$20" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="DIO5"/>
-<pinref part="DIO5" gate="P" pin="P"/>
+<pinref part="DIO5_P" gate="P" pin="P"/>
+<pinref part="DIO5_RES" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="-40.64" x2="111.76" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-40.64" x2="111.76" y2="-60.96" width="0.1524" layer="91"/>
+<junction x="109.22" y="-40.64"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -18096,6 +18245,52 @@ Li-Polymer Charge Management Controllers</description>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="73.66" x2="162.56" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="76.2" x2="167.64" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="DIO1_RES" gate="G$1" pin="1"/>
+<pinref part="DIO1" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="DIO5_RES" gate="G$1" pin="1"/>
+<pinref part="DIO5" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="DIO4_RES" gate="G$1" pin="1"/>
+<pinref part="DIO4" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="DIO3" gate="G$1" pin="2"/>
+<pinref part="DIO3_RES" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="DIO0_RES" gate="G$1" pin="1"/>
+<pinref part="DIO0" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="DIO2_RES" gate="G$1" pin="1"/>
+<pinref part="DIO2" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="DIO3_RES" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="-35.56" x2="147.32" y2="-58.42" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="DIO3"/>
+<pinref part="DIO3_P" gate="P" pin="P"/>
+<wire x1="147.32" y1="-35.56" x2="139.7" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="139.7" y="-35.56"/>
 </segment>
 </net>
 </nets>

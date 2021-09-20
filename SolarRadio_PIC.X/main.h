@@ -1,23 +1,16 @@
+
+
 /* 
- * File:   main.h
- * Author: Chase
- *
- * Created on July 11, 2021, 9:57 PM
+ * File:   
+ * Author: 
+ * Comments:
+ * Revision history: 
  */
 
 #ifndef MAIN_H
 #define	MAIN_H
 
-#ifdef	__cplusplus
-extern "C" {
+typedef unsigned char byte;
+#include <xc.h> // include processor files - each processor file is guarded.  
+
 #endif
-
-
-
-
-#ifdef	__cplusplus
-}
-#endif
-
-#endif	/* MAIN_H */
-

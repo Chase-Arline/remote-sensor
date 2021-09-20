@@ -1,3 +1,4 @@
 build/default/debug/receiver.p1:  \
 receiver.c  \
-RFM69HCW.h 
+RFM69HCW.h  \
+main.h 

@@ -1,2 +1,4 @@
 build/default/production/transmitter.p1:  \
-transmitter.c 
+transmitter.c  \
+main.h  \
+RFM69HCW.h 

@@ -86,7 +86,6 @@
 <smd name="8" x="1.45" y="0" dx="0.6" dy="0.24" layer="1"/>
 <smd name="9" x="1.45" y="0.5" dx="0.6" dy="0.24" layer="1"/>
 <smd name="10" x="1.45" y="1" dx="0.6" dy="0.24" layer="1"/>
-<smd name="11" x="0" y="0" dx="1.65" dy="2.4" layer="1"/>
 <smd name="11@1" x="-0.25" y="1.35" dx="0.24" dy="0.6" layer="1"/>
 <smd name="11@2" x="0.25" y="1.35" dx="0.24" dy="0.6" layer="1"/>
 <smd name="11@3" x="-0.25" y="-1.35" dx="0.24" dy="0.6" layer="1"/>
@@ -98,6 +97,7 @@
 <circle x="-1.6" y="0.95" radius="0.05" width="0.025" layer="51"/>
 <text x="-2" y="1.75" size="0.75" layer="25">&gt;NAME</text>
 <text x="-2.05" y="-2.55" size="0.75" layer="27">&gt;VALUE</text>
+<smd name="11@0" x="0" y="0.00635" dx="2.4" dy="1.65" layer="1" rot="R90" stop="no" cream="no"/>
 </package>
 </packages>
 <symbols>
@@ -129,7 +129,7 @@
 <connects>
 <connect gate="G$1" pin="EN" pad="6"/>
 <connect gate="G$1" pin="FB" pad="10"/>
-<connect gate="G$1" pin="GND" pad="3 9 11 11@1 11@2 11@3 11@4"/>
+<connect gate="G$1" pin="GND" pad="3 9 11@0 11@1 11@2 11@3 11@4"/>
 <connect gate="G$1" pin="L1" pad="4"/>
 <connect gate="G$1" pin="L2" pad="2" route="any"/>
 <connect gate="G$1" pin="PS/SYNC" pad="7"/>
